@@ -6,10 +6,25 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		27514E9C2A8217A400E16169 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		27514E9D2A82187500E16169 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		27514E9E2A82188400E16169 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		27514E9F2A82188F00E16169 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		27514EA02A82189E00E16169 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
+		27514EA12A8218AA00E16169 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		27514E952A82176100E16169 = {
 			isa = PBXGroup;
 			children = (
+				27514E9C2A8217A400E16169 /* Day1.swift */,
+				27514E9D2A82187500E16169 /* Day2.swift */,
+				27514E9E2A82188400E16169 /* Day3.swift */,
+				27514E9F2A82188F00E16169 /* Day4.swift */,
+				27514EA02A82189E00E16169 /* Day5.swift */,
+				27514EA12A8218AA00E16169 /* Day6.swift */,
 			);
 			sourceTree = "<group>";
 		};
