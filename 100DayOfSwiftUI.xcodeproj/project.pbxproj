@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		270E6C392A9F0AB3000C9C21 /* UsingStacksToArrangeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingStacksToArrangeViews.swift; sourceTree = "<group>"; };
+		270E6C3A2A9F123A000C9C21 /* ColorsAndFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAndFrames.swift; sourceTree = "<group>"; };
+		270E6C3B2A9F19C5000C9C21 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		270E6C3C2A9F1FFA000C9C21 /* ButtonsAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImages.swift; sourceTree = "<group>"; };
+		270E6C3D2A9F2898000C9C21 /* ShowingAlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAlertMessages.swift; sourceTree = "<group>"; };
 		2720798F2A923AD5008BFBFE /* Day15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15.swift; sourceTree = "<group>"; };
 		2728403F2A83DDF9002303B8 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		272D0F3D2A9A24680026ABCC /* Day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
@@ -29,6 +34,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		270E6C382A9F0A46000C9C21 /* Day20 */ = {
+			isa = PBXGroup;
+			children = (
+				270E6C392A9F0AB3000C9C21 /* UsingStacksToArrangeViews.swift */,
+				270E6C3A2A9F123A000C9C21 /* ColorsAndFrames.swift */,
+				270E6C3B2A9F19C5000C9C21 /* Gradients.swift */,
+				270E6C3C2A9F1FFA000C9C21 /* ButtonsAndImages.swift */,
+				270E6C3D2A9F2898000C9C21 /* ShowingAlertMessages.swift */,
+			);
+			path = Day20;
+			sourceTree = "<group>";
+		};
 		27514E952A82176100E16169 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +68,7 @@
 				277E84392A9B7BB50096A5E2 /* Day17.swift */,
 				279E64882A9CC7E600978F1E /* Day18.swift */,
 				27581FFB2A9E1F650055E559 /* Day19.swift */,
+				270E6C382A9F0A46000C9C21 /* Day20 */,
 			);
 			sourceTree = "<group>";
 		};
