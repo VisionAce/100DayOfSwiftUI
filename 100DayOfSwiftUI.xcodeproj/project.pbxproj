@@ -34,6 +34,9 @@
 		27514E9F2A82188F00E16169 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
 		27514EA02A82189E00E16169 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
 		27514EA12A8218AA00E16169 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		2751CE6B2AA72EA900F434A3 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
+		2751CE6C2AA7341300F434A3 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDates.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
 		275B82272A8A596100B4A7BC /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		2761CCD32A8E18AE002B2F78 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
@@ -119,7 +122,18 @@
 				273D81002AA31A8800FD94FF /* Day23 */,
 				273D81082AA45CEA00FD94FF /* Day24 */,
 				273E50BD2AA5B48C00A038E8 /* Day25 */,
+				2751CE6A2AA72E5F00F434A3 /* Day26 */,
 			);
+			sourceTree = "<group>";
+		};
+		2751CE6A2AA72E5F00F434A3 /* Day26 */ = {
+			isa = PBXGroup;
+			children = (
+				2751CE6B2AA72EA900F434A3 /* Stepper.swift */,
+				2751CE6C2AA7341300F434A3 /* DatePicker.swift */,
+				2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */,
+			);
+			path = Day26;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
