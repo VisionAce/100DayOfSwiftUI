@@ -48,6 +48,9 @@
 		27887FA32AAB5A0F000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		279E64882A9CC7E600978F1E /* Day18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18.swift; sourceTree = "<group>"; };
 		27AF5F2B2A880EC600A0DBFF /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
+		27CF01E62AAC3975003E99D7 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		27CF01E72AAC3F59003E99D7 /* LoadingResourcesFromYourAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResourcesFromYourAppBundle.swift; sourceTree = "<group>"; };
+		27CF01E82AAC44EC003E99D7 /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
 		27D314C92A8B9AE800E74489 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
 		27E5D3EE2AA0E55900E5CB62 /* Day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21.swift; sourceTree = "<group>"; };
 		27FA2D6E2A8FB210004959F4 /* Day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 				2751CE6A2AA72E5F00F434A3 /* Day26 */,
 				27887F9E2AA9CF22000AAD82 /* Day27 */,
 				27887FA12AAB595C000AAD82 /* Day28 */,
+				27CF01E52AAC393E003E99D7 /* Day29 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +162,16 @@
 				27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */,
 			);
 			path = Day28;
+			sourceTree = "<group>";
+		};
+		27CF01E52AAC393E003E99D7 /* Day29 */ = {
+			isa = PBXGroup;
+			children = (
+				27CF01E62AAC3975003E99D7 /* List.swift */,
+				27CF01E72AAC3F59003E99D7 /* LoadingResourcesFromYourAppBundle.swift */,
+				27CF01E82AAC44EC003E99D7 /* WorkingWithStrings.swift */,
+			);
+			path = Day29;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
