@@ -52,6 +52,10 @@
 		27887FA32AAB5A0F000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		279E64882A9CC7E600978F1E /* Day18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18.swift; sourceTree = "<group>"; };
 		27AF5F2B2A880EC600A0DBFF /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
+		27B521712AB074FE00204571 /* CreatingImplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingImplicitAnimations.swift; sourceTree = "<group>"; };
+		27B521722AB07C9A00204571 /* CustomizingAnimationsInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimationsInSwiftUI.swift; sourceTree = "<group>"; };
+		27B521732AB08B5A00204571 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
+		27B521742AB08F2D00204571 /* CreatingExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingExplicitAnimations.swift; sourceTree = "<group>"; };
 		27CF01E62AAC3975003E99D7 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		27CF01E72AAC3F59003E99D7 /* LoadingResourcesFromYourAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResourcesFromYourAppBundle.swift; sourceTree = "<group>"; };
 		27CF01E82AAC44EC003E99D7 /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 				27CF01E52AAC393E003E99D7 /* Day29 */,
 				2737BD492AAE23DB00FD5A4F /* Day30 */,
 				2737BD4C2AAF688400FD5A4F /* Day31 */,
+				27B521702AB074C800204571 /* Day32 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +191,17 @@
 				27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */,
 			);
 			path = Day28;
+			sourceTree = "<group>";
+		};
+		27B521702AB074C800204571 /* Day32 */ = {
+			isa = PBXGroup;
+			children = (
+				27B521712AB074FE00204571 /* CreatingImplicitAnimations.swift */,
+				27B521722AB07C9A00204571 /* CustomizingAnimationsInSwiftUI.swift */,
+				27B521732AB08B5A00204571 /* AnimatingBindings.swift */,
+				27B521742AB08F2D00204571 /* CreatingExplicitAnimations.swift */,
+			);
+			path = Day32;
 			sourceTree = "<group>";
 		};
 		27CF01E52AAC393E003E99D7 /* Day29 */ = {
