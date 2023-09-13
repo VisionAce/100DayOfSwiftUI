@@ -43,6 +43,10 @@
 		2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDates.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
 		275B82272A8A596100B4A7BC /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
+		275CA5572AB1C98A00D5CD03 /* ControllingTheAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingTheAnimationStack.swift; sourceTree = "<group>"; };
+		275CA5582AB1D2BB00D5CD03 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
+		275CA5592AB1D59500D5CD03 /* ShowingAndHidingViewsWithTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViewsWithTransitions.swift; sourceTree = "<group>"; };
+		275CA55A2AB1DBD300D5CD03 /* BuildingCustomTransitionsUsingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCustomTransitionsUsingViewModifier.swift; sourceTree = "<group>"; };
 		2761CCD32A8E18AE002B2F78 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
 		2778E18E2A8551020018B06C /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
 		277E84392A9B7BB50096A5E2 /* Day17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 				2737BD492AAE23DB00FD5A4F /* Day30 */,
 				2737BD4C2AAF688400FD5A4F /* Day31 */,
 				27B521702AB074C800204571 /* Day32 */,
+				275CA5562AB1C93F00D5CD03 /* Day33 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +178,17 @@
 				2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */,
 			);
 			path = Day26;
+			sourceTree = "<group>";
+		};
+		275CA5562AB1C93F00D5CD03 /* Day33 */ = {
+			isa = PBXGroup;
+			children = (
+				275CA5572AB1C98A00D5CD03 /* ControllingTheAnimationStack.swift */,
+				275CA5582AB1D2BB00D5CD03 /* AnimatingGestures.swift */,
+				275CA5592AB1D59500D5CD03 /* ShowingAndHidingViewsWithTransitions.swift */,
+				275CA55A2AB1DBD300D5CD03 /* BuildingCustomTransitionsUsingViewModifier.swift */,
+			);
+			path = Day33;
 			sourceTree = "<group>";
 		};
 		27887F9E2AA9CF22000AAD82 /* Day27 */ = {
