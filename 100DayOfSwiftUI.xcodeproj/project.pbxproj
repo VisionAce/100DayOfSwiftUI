@@ -41,6 +41,8 @@
 		2751CE6B2AA72EA900F434A3 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 		2751CE6C2AA7341300F434A3 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDates.swift; sourceTree = "<group>"; };
+		275520232AB377A700AB14FF /* GuessTheFlagChallengeDay34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagChallengeDay34.swift; sourceTree = "<group>"; };
+		275520242AB377D400AB14FF /* WiggleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleModifier.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
 		275B82272A8A596100B4A7BC /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		275CA5572AB1C98A00D5CD03 /* ControllingTheAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingTheAnimationStack.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				2737BD4C2AAF688400FD5A4F /* Day31 */,
 				27B521702AB074C800204571 /* Day32 */,
 				275CA5562AB1C93F00D5CD03 /* Day33 */,
+				275520222AB376FA00AB14FF /* Day34 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +181,15 @@
 				2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */,
 			);
 			path = Day26;
+			sourceTree = "<group>";
+		};
+		275520222AB376FA00AB14FF /* Day34 */ = {
+			isa = PBXGroup;
+			children = (
+				275520232AB377A700AB14FF /* GuessTheFlagChallengeDay34.swift */,
+				275520242AB377D400AB14FF /* WiggleModifier.swift */,
+			);
+			path = Day34;
 			sourceTree = "<group>";
 		};
 		275CA5562AB1C93F00D5CD03 /* Day33 */ = {

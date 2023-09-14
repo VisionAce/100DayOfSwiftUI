@@ -14,6 +14,7 @@ struct CornerRotateModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
+        //  stops the view from being drawn outside of its rectangular space.
             .clipped()
     }
 }
