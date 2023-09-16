@@ -16,6 +16,12 @@
 		2728403F2A83DDF9002303B8 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		272D0F3D2A9A24680026ABCC /* Day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
 		2733F35C2AA1B7AF0068A21C /* Day22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22.swift; sourceTree = "<group>"; };
+		273406452AB599B4008F516F /* SharingSwiftUIStateWith@StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharingSwiftUIStateWith@StateObject.swift"; sourceTree = "<group>"; };
+		273406462AB59EF1008F516F /* ShowingAndHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViews.swift; sourceTree = "<group>"; };
+		273406472AB5AD08008F516F /* DeletingItemsUsingOnDelete().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeletingItemsUsingOnDelete().swift"; sourceTree = "<group>"; };
+		273406482AB5FCD2008F516F /* StoringUserSettingsWithUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringUserSettingsWithUserDefaults.swift; sourceTree = "<group>"; };
+		273406492AB60652008F516F /* ArchivingSwiftObjectsWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingSwiftObjectsWithCodable.swift; sourceTree = "<group>"; };
+		2734064A2AB606E9008F516F /* MultiplictionTablesGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplictionTablesGame.swift; sourceTree = "<group>"; };
 		2734AD692A913485005954D8 /* Day14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14.swift; sourceTree = "<group>"; };
 		2737BD4A2AAE242900FD5A4F /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		2737BD4B2AAE246600FD5A4F /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
@@ -81,6 +87,26 @@
 				270E6C3D2A9F2898000C9C21 /* ShowingAlertMessages.swift */,
 			);
 			path = Day20;
+			sourceTree = "<group>";
+		};
+		273406292AB58F9A008F516F /* Day35 */ = {
+			isa = PBXGroup;
+			children = (
+				2734064A2AB606E9008F516F /* MultiplictionTablesGame.swift */,
+			);
+			path = Day35;
+			sourceTree = "<group>";
+		};
+		2734062A2AB58FC1008F516F /* Day36 */ = {
+			isa = PBXGroup;
+			children = (
+				273406452AB599B4008F516F /* SharingSwiftUIStateWith@StateObject.swift */,
+				273406462AB59EF1008F516F /* ShowingAndHidingViews.swift */,
+				273406472AB5AD08008F516F /* DeletingItemsUsingOnDelete().swift */,
+				273406482AB5FCD2008F516F /* StoringUserSettingsWithUserDefaults.swift */,
+				273406492AB60652008F516F /* ArchivingSwiftObjectsWithCodable.swift */,
+			);
+			path = Day36;
 			sourceTree = "<group>";
 		};
 		2737BD492AAE23DB00FD5A4F /* Day30 */ = {
@@ -170,6 +196,8 @@
 				27B521702AB074C800204571 /* Day32 */,
 				275CA5562AB1C93F00D5CD03 /* Day33 */,
 				275520222AB376FA00AB14FF /* Day34 */,
+				273406292AB58F9A008F516F /* Day35 */,
+				2734062A2AB58FC1008F516F /* Day36 */,
 			);
 			sourceTree = "<group>";
 		};
