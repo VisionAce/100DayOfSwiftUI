@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		2705E79C2AC7471E004F58A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2705E79D2AC74748004F58A8 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		2705E79E2AC74778004F58A8 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		2705E79F2AC7478B004F58A8 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		2705E7A02AC747BE004F58A8 /* OtherSolve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSolve.swift; sourceTree = "<group>"; };
 		270E6C392A9F0AB3000C9C21 /* UsingStacksToArrangeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingStacksToArrangeViews.swift; sourceTree = "<group>"; };
 		270E6C3A2A9F123A000C9C21 /* ColorsAndFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAndFrames.swift; sourceTree = "<group>"; };
 		270E6C3B2A9F19C5000C9C21 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
@@ -81,6 +86,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		2705E79B2AC746D7004F58A8 /* Day38 */ = {
+			isa = PBXGroup;
+			children = (
+				2705E79C2AC7471E004F58A8 /* ContentView.swift */,
+				2705E79D2AC74748004F58A8 /* AddView.swift */,
+				2705E79E2AC74778004F58A8 /* ExpenseItem.swift */,
+				2705E79F2AC7478B004F58A8 /* Expenses.swift */,
+				2705E7A02AC747BE004F58A8 /* OtherSolve.swift */,
+			);
+			path = Day38;
+			sourceTree = "<group>";
+		};
 		270E6C382A9F0A46000C9C21 /* Day20 */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +220,7 @@
 				273406292AB58F9A008F516F /* Day35 */,
 				2734062A2AB58FC1008F516F /* Day36 */,
 				277602432ABC1E1E00B72A74 /* Day37 */,
+				2705E79B2AC746D7004F58A8 /* Day38 */,
 			);
 			sourceTree = "<group>";
 		};
