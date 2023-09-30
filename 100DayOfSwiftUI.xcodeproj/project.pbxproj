@@ -61,6 +61,12 @@
 		275CA5592AB1D59500D5CD03 /* ShowingAndHidingViewsWithTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViewsWithTransitions.swift; sourceTree = "<group>"; };
 		275CA55A2AB1DBD300D5CD03 /* BuildingCustomTransitionsUsingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCustomTransitionsUsingViewModifier.swift; sourceTree = "<group>"; };
 		2761CCD32A8E18AE002B2F78 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
+		2771D5F02AC7DDFD00F386EE /* ResizingImagesToFitTheScreenUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImagesToFitTheScreenUsingGeometryReader.swift; sourceTree = "<group>"; };
+		2771D5F12AC7DE3A00F386EE /* day39_file.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = day39_file.xcassets; sourceTree = "<group>"; };
+		2771D5F22AC7E4A900F386EE /* HowScrollViewLetsUsWorkWithScrollingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowScrollViewLetsUsWorkWithScrollingData.swift; sourceTree = "<group>"; };
+		2771D5F32AC7E89900F386EE /* PushingNewViewsOntoTheStackUsingNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingNewViewsOntoTheStackUsingNavigationLink.swift; sourceTree = "<group>"; };
+		2771D5F42AC7F15300F386EE /* WorkingWithHierarchicalCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithHierarchicalCodableData.swift; sourceTree = "<group>"; };
+		2771D5F52AC7F50E00F386EE /* HowToLayOutViewsInAScrollingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToLayOutViewsInAScrollingGrid.swift; sourceTree = "<group>"; };
 		277602442ABC1E8E00B72A74 /* iExpenseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseContentView.swift; sourceTree = "<group>"; };
 		277602452ABC1EDF00B72A74 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		277602462ABC1F0200B72A74 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
@@ -221,6 +227,7 @@
 				2734062A2AB58FC1008F516F /* Day36 */,
 				277602432ABC1E1E00B72A74 /* Day37 */,
 				2705E79B2AC746D7004F58A8 /* Day38 */,
+				2771D5EF2AC7DD1600F386EE /* Day39 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,6 +259,19 @@
 				275CA55A2AB1DBD300D5CD03 /* BuildingCustomTransitionsUsingViewModifier.swift */,
 			);
 			path = Day33;
+			sourceTree = "<group>";
+		};
+		2771D5EF2AC7DD1600F386EE /* Day39 */ = {
+			isa = PBXGroup;
+			children = (
+				2771D5F02AC7DDFD00F386EE /* ResizingImagesToFitTheScreenUsingGeometryReader.swift */,
+				2771D5F22AC7E4A900F386EE /* HowScrollViewLetsUsWorkWithScrollingData.swift */,
+				2771D5F32AC7E89900F386EE /* PushingNewViewsOntoTheStackUsingNavigationLink.swift */,
+				2771D5F42AC7F15300F386EE /* WorkingWithHierarchicalCodableData.swift */,
+				2771D5F52AC7F50E00F386EE /* HowToLayOutViewsInAScrollingGrid.swift */,
+				2771D5F12AC7DE3A00F386EE /* day39_file.xcassets */,
+			);
+			path = Day39;
 			sourceTree = "<group>";
 		};
 		277602432ABC1E1E00B72A74 /* Day37 */ = {
