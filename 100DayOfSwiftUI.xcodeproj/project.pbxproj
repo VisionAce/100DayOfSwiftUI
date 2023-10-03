@@ -103,6 +103,8 @@
 		27F365D52ACABEB100FD39E5 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		27F365D62ACABEBD00FD39E5 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		27F365D72ACABEC400FD39E5 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		27F365D92ACC1FC100FD39E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27F365DA2ACC1FFF00FD39E5 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		27FA2D6E2A8FB210004959F4 /* Day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +247,7 @@
 				2771D5EF2AC7DD1600F386EE /* Day39 */,
 				27F365B72AC93C2600FD39E5 /* Day40 */,
 				27F365D02ACABD5800FD39E5 /* Day41 */,
+				27F365D82ACC1AAF00FD39E5 /* Day42 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -377,6 +380,15 @@
 				27F365D72ACABEC400FD39E5 /* Color-Theme.swift */,
 			);
 			path = Day41;
+			sourceTree = "<group>";
+		};
+		27F365D82ACC1AAF00FD39E5 /* Day42 */ = {
+			isa = PBXGroup;
+			children = (
+				27F365D92ACC1FC100FD39E5 /* ContentView.swift */,
+				27F365DA2ACC1FFF00FD39E5 /* MissionView.swift */,
+			);
+			path = Day42;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
