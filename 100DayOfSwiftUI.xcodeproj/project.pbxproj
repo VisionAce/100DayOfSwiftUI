@@ -52,6 +52,9 @@
 		2751CE6B2AA72EA900F434A3 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 		2751CE6C2AA7341300F434A3 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDates.swift; sourceTree = "<group>"; };
+		275238352ACE5B0200D3EA1A /* CreatingCustomPathsWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPathsWithSwiftUI.swift; sourceTree = "<group>"; };
+		275238362ACE61B500D3EA1A /* PathsVsShapesInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVsShapesInSwiftUI.swift; sourceTree = "<group>"; };
+		275238372ACE725700D3EA1A /* AddingStrokeBorder()SupportWithInsettableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddingStrokeBorder()SupportWithInsettableShape.swift"; sourceTree = "<group>"; };
 		275520232AB377A700AB14FF /* GuessTheFlagChallengeDay34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagChallengeDay34.swift; sourceTree = "<group>"; };
 		275520242AB377D400AB14FF /* WiggleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleModifier.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
@@ -248,6 +251,7 @@
 				27F365B72AC93C2600FD39E5 /* Day40 */,
 				27F365D02ACABD5800FD39E5 /* Day41 */,
 				27F365D82ACC1AAF00FD39E5 /* Day42 */,
+				275238342ACE5AC500D3EA1A /* Day43 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,6 +263,16 @@
 				2751CE6D2AA73F8D00F434A3 /* WorkingWithDates.swift */,
 			);
 			path = Day26;
+			sourceTree = "<group>";
+		};
+		275238342ACE5AC500D3EA1A /* Day43 */ = {
+			isa = PBXGroup;
+			children = (
+				275238352ACE5B0200D3EA1A /* CreatingCustomPathsWithSwiftUI.swift */,
+				275238362ACE61B500D3EA1A /* PathsVsShapesInSwiftUI.swift */,
+				275238372ACE725700D3EA1A /* AddingStrokeBorder()SupportWithInsettableShape.swift */,
+			);
+			path = Day43;
 			sourceTree = "<group>";
 		};
 		275520222AB376FA00AB14FF /* Day34 */ = {
