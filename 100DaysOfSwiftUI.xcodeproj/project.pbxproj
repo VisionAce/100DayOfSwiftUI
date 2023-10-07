@@ -43,6 +43,9 @@
 		273E50BE2AA5B51A00A038E8 /* WorkingWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithForEach.swift; sourceTree = "<group>"; };
 		273E50BF2AA5BBD500A038E8 /* WorkingWithBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithBindings.swift; sourceTree = "<group>"; };
 		273E50C02AA6222900A038E8 /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		2744F6B02AD12D8B00D81353 /* TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift"; sourceTree = "<group>"; };
+		2744F6B12AD14CFE00D81353 /* CreativeBordersAndFillsUsingImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFillsUsingImagePaint.swift; sourceTree = "<group>"; };
+		2744F6B22AD173E600D81353 /* EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift"; sourceTree = "<group>"; };
 		27514E9C2A8217A400E16169 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		27514E9D2A82187500E16169 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		27514E9E2A82188400E16169 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
@@ -206,6 +209,16 @@
 			path = Day25;
 			sourceTree = "<group>";
 		};
+		2744F6AF2AD12D3900D81353 /* Day44 */ = {
+			isa = PBXGroup;
+			children = (
+				2744F6B02AD12D8B00D81353 /* TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift */,
+				2744F6B12AD14CFE00D81353 /* CreativeBordersAndFillsUsingImagePaint.swift */,
+				2744F6B22AD173E600D81353 /* EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift */,
+			);
+			path = Day44;
+			sourceTree = "<group>";
+		};
 		27514E952A82176100E16169 = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +265,7 @@
 				27F365D02ACABD5800FD39E5 /* Day41 */,
 				27F365D82ACC1AAF00FD39E5 /* Day42 */,
 				275238342ACE5AC500D3EA1A /* Day43 */,
+				2744F6AF2AD12D3900D81353 /* Day44 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,7 +428,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 27514E992A82176100E16169 /* Build configuration list for PBXProject "100DayOfSwiftUI" */;
+			buildConfigurationList = 27514E992A82176100E16169 /* Build configuration list for PBXProject "100DaysOfSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -504,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27514E992A82176100E16169 /* Build configuration list for PBXProject "100DayOfSwiftUI" */ = {
+		27514E992A82176100E16169 /* Build configuration list for PBXProject "100DaysOfSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27514E9A2A82176100E16169 /* Debug */,
