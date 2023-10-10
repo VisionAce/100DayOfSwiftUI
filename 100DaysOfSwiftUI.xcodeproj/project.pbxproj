@@ -88,6 +88,9 @@
 		27B0FC372AD3B5A0004F3653 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		27B0FC382AD3B6F8004F3653 /* AnimatingComplexShapesWithAnimatablePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingComplexShapesWithAnimatablePair.swift; sourceTree = "<group>"; };
 		27B0FC392AD3C222004F3653 /* CreatingASpirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingASpirograph.swift; sourceTree = "<group>"; };
+		27B0FC612AD57481004F3653 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		27B0FC622AD5749E004F3653 /* ColorCyclingRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangleView.swift; sourceTree = "<group>"; };
+		27B0FC632AD574BC004F3653 /* Day46Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day46Challenge.swift; sourceTree = "<group>"; };
 		27B521712AB074FE00204571 /* CreatingImplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingImplicitAnimations.swift; sourceTree = "<group>"; };
 		27B521722AB07C9A00204571 /* CustomizingAnimationsInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimationsInSwiftUI.swift; sourceTree = "<group>"; };
 		27B521732AB08B5A00204571 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
@@ -272,6 +275,7 @@
 				275238342ACE5AC500D3EA1A /* Day43 */,
 				2744F6AF2AD12D3900D81353 /* Day44 */,
 				27C874352AD2BB5C00356430 /* Day45 */,
+				27B0FC602AD5744A004F3653 /* Day46 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -355,6 +359,16 @@
 				27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */,
 			);
 			path = Day28;
+			sourceTree = "<group>";
+		};
+		27B0FC602AD5744A004F3653 /* Day46 */ = {
+			isa = PBXGroup;
+			children = (
+				27B0FC612AD57481004F3653 /* ArrowView.swift */,
+				27B0FC622AD5749E004F3653 /* ColorCyclingRectangleView.swift */,
+				27B0FC632AD574BC004F3653 /* Day46Challenge.swift */,
+			);
+			path = Day46;
 			sourceTree = "<group>";
 		};
 		27B521702AB074C800204571 /* Day32 */ = {
