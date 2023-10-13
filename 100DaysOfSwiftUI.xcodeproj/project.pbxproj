@@ -73,6 +73,10 @@
 		2771D5F32AC7E89900F386EE /* PushingNewViewsOntoTheStackUsingNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingNewViewsOntoTheStackUsingNavigationLink.swift; sourceTree = "<group>"; };
 		2771D5F42AC7F15300F386EE /* WorkingWithHierarchicalCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithHierarchicalCodableData.swift; sourceTree = "<group>"; };
 		2771D5F52AC7F50E00F386EE /* HowToLayOutViewsInAScrollingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToLayOutViewsInAScrollingGrid.swift; sourceTree = "<group>"; };
+		277269502AD970B60058FF5B /* AddingCodableConformanceFor@PublishedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddingCodableConformanceFor@PublishedProperties.swift"; sourceTree = "<group>"; };
+		277269512AD982CE0058FF5B /* SendingAndReceivingCodableDataWithURLSessionAndSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingAndReceivingCodableDataWithURLSessionAndSwiftUI.swift; sourceTree = "<group>"; };
+		277269522AD998C30058FF5B /* LoadingAnImageFromARemoteServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnImageFromARemoteServer.swift; sourceTree = "<group>"; };
+		277269532AD99C590058FF5B /* ValidatingAndDisablingForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingAndDisablingForms.swift; sourceTree = "<group>"; };
 		277602442ABC1E8E00B72A74 /* iExpenseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseContentView.swift; sourceTree = "<group>"; };
 		277602452ABC1EDF00B72A74 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		277602462ABC1F0200B72A74 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
@@ -276,6 +280,7 @@
 				2744F6AF2AD12D3900D81353 /* Day44 */,
 				27C874352AD2BB5C00356430 /* Day45 */,
 				27B0FC602AD5744A004F3653 /* Day46 */,
+				2772694F2AD970300058FF5B /* Day49 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -330,6 +335,17 @@
 				2771D5F12AC7DE3A00F386EE /* day39_file.xcassets */,
 			);
 			path = Day39;
+			sourceTree = "<group>";
+		};
+		2772694F2AD970300058FF5B /* Day49 */ = {
+			isa = PBXGroup;
+			children = (
+				277269502AD970B60058FF5B /* AddingCodableConformanceFor@PublishedProperties.swift */,
+				277269512AD982CE0058FF5B /* SendingAndReceivingCodableDataWithURLSessionAndSwiftUI.swift */,
+				277269522AD998C30058FF5B /* LoadingAnImageFromARemoteServer.swift */,
+				277269532AD99C590058FF5B /* ValidatingAndDisablingForms.swift */,
+			);
+			path = Day49;
 			sourceTree = "<group>";
 		};
 		277602432ABC1E1E00B72A74 /* Day37 */ = {
