@@ -87,6 +87,8 @@
 		2780F9602ADAF27C006F8C28 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		2780F9652ADAF27C006F8C28 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		2780F9662ADAF27C006F8C28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2780F96E2ADBD8C7006F8C28 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		2780F96F2ADBD8FF006F8C28 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		27887F9F2AA9CF88000AAD82 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		27887FA02AA9CFB5000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestChallenge.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				27B0FC602AD5744A004F3653 /* Day46 */,
 				2772694F2AD970300058FF5B /* Day49 */,
 				2780F94D2ADAF1C2006F8C28 /* Day50 */,
+				2780F96D2ADBD839006F8C28 /* Day51 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -381,6 +384,15 @@
 				2780F9662ADAF27C006F8C28 /* ContentView.swift */,
 			);
 			path = CupcakeCorner;
+			sourceTree = "<group>";
+		};
+		2780F96D2ADBD839006F8C28 /* Day51 */ = {
+			isa = PBXGroup;
+			children = (
+				2780F96E2ADBD8C7006F8C28 /* CheckoutView.swift */,
+				2780F96F2ADBD8FF006F8C28 /* Order.swift */,
+			);
+			path = Day51;
 			sourceTree = "<group>";
 		};
 		27887F9E2AA9CF22000AAD82 /* Day27 */ = {
