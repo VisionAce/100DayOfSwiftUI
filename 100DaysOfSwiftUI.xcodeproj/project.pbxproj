@@ -95,6 +95,12 @@
 		2780F9662ADAF27C006F8C28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2780F96E2ADBD8C7006F8C28 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		2780F96F2ADBD8FF006F8C28 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		278102012AE14B95000302F7 /* CreatingACustomComponentWith@Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreatingACustomComponentWith@Binding.swift"; sourceTree = "<group>"; };
+		278102022AE152D7000302F7 /* AcceptingMulti-lineTextInputWithTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AcceptingMulti-lineTextInputWithTextEditor.swift"; sourceTree = "<group>"; };
+		278102092AE15D22000302F7 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		2781020A2AE15D50000302F7 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		2781020B2AE15D88000302F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2781020C2AE15D9C000302F7 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		27887F9F2AA9CF88000AAD82 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		27887FA02AA9CFB5000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestChallenge.swift; sourceTree = "<group>"; };
@@ -317,6 +323,7 @@
 				2780F94D2ADAF1C2006F8C28 /* Day50 */,
 				2780F96D2ADBD839006F8C28 /* Day51 */,
 				272140202ADEE41D00B4347E /* Day52 */,
+				278102002AE14ADC000302F7 /* Day53 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -421,6 +428,27 @@
 				2780F96F2ADBD8FF006F8C28 /* Order.swift */,
 			);
 			path = Day51;
+			sourceTree = "<group>";
+		};
+		278102002AE14ADC000302F7 /* Day53 */ = {
+			isa = PBXGroup;
+			children = (
+				278102012AE14B95000302F7 /* CreatingACustomComponentWith@Binding.swift */,
+				278102022AE152D7000302F7 /* AcceptingMulti-lineTextInputWithTextEditor.swift */,
+				2781020D2AE15DF5000302F7 /* HowToCombineCoreDataAndSwiftUI */,
+			);
+			path = Day53;
+			sourceTree = "<group>";
+		};
+		2781020D2AE15DF5000302F7 /* HowToCombineCoreDataAndSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2781020A2AE15D50000302F7 /* BookwormApp.swift */,
+				2781020B2AE15D88000302F7 /* ContentView.swift */,
+				2781020C2AE15D9C000302F7 /* DataController.swift */,
+				278102082AE15D22000302F7 /* Bookworm.xcdatamodeld */,
+			);
+			path = HowToCombineCoreDataAndSwiftUI;
 			sourceTree = "<group>";
 		};
 		27887F9E2AA9CF22000AAD82 /* Day27 */ = {
@@ -640,6 +668,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		278102082AE15D22000302F7 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				278102092AE15D22000302F7 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 278102092AE15D22000302F7 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 27514E962A82176100E16169 /* Project object */;
 }
