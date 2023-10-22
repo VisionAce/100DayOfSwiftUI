@@ -66,6 +66,14 @@
 		275238372ACE725700D3EA1A /* AddingStrokeBorder()SupportWithInsettableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddingStrokeBorder()SupportWithInsettableShape.swift"; sourceTree = "<group>"; };
 		275520232AB377A700AB14FF /* GuessTheFlagChallengeDay34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagChallengeDay34.swift; sourceTree = "<group>"; };
 		275520242AB377D400AB14FF /* WiggleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleModifier.swift; sourceTree = "<group>"; };
+		275566682AE5526400F5F6E4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		275566692AE5526400F5F6E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2755666A2AE5526400F5F6E4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2755666B2AE5526400F5F6E4 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		2755666D2AE5526400F5F6E4 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		2755666E2AE5526400F5F6E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2755666F2AE5526400F5F6E4 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		275566702AE5526400F5F6E4 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
 		275B82272A8A596100B4A7BC /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		275CA5572AB1C98A00D5CD03 /* ControllingTheAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingTheAnimationStack.swift; sourceTree = "<group>"; };
@@ -342,6 +350,7 @@
 				278102002AE14ADC000302F7 /* Day53 */,
 				2781022E2AE26E20000302F7 /* Day54 */,
 				2781023D2AE4302F000302F7 /* Day55 */,
+				275566662AE5520E00F5F6E4 /* Day56 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -372,6 +381,29 @@
 				275520242AB377D400AB14FF /* WiggleModifier.swift */,
 			);
 			path = Day34;
+			sourceTree = "<group>";
+		};
+		275566662AE5520E00F5F6E4 /* Day56 */ = {
+			isa = PBXGroup;
+			children = (
+				275566702AE5526400F5F6E4 /* BookwormApp.swift */,
+				2755666A2AE5526400F5F6E4 /* DataController.swift */,
+				275566712AE5527400F5F6E4 /* View */,
+				2755666C2AE5526400F5F6E4 /* Bookworm.xcdatamodeld */,
+			);
+			path = Day56;
+			sourceTree = "<group>";
+		};
+		275566712AE5527400F5F6E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				275566692AE5526400F5F6E4 /* ContentView.swift */,
+				2755666B2AE5526400F5F6E4 /* AddBookView.swift */,
+				2755666E2AE5526400F5F6E4 /* DetailView.swift */,
+				2755666F2AE5526400F5F6E4 /* EmojiRatingView.swift */,
+				275566682AE5526400F5F6E4 /* RatingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		275CA5562AB1C93F00D5CD03 /* Day33 */ = {
@@ -734,6 +766,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		2755666C2AE5526400F5F6E4 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2755666D2AE5526400F5F6E4 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 2755666D2AE5526400F5F6E4 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		278102082AE15D22000302F7 /* Bookworm.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
