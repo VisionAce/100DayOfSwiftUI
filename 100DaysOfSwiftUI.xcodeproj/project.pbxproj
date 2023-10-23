@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -74,6 +74,17 @@
 		2755666E2AE5526400F5F6E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		2755666F2AE5526400F5F6E4 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		275566702AE5526400F5F6E4 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		2755668D2AE66FB700F5F6E4 /* WhyDoes\.selfWorkForForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhyDoes\\.selfWorkForForEach.swift"; sourceTree = "<group>"; };
+		275566982AE6769400F5F6E4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2755669A2AE676C600F5F6E4 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		2755669B2AE6772D00F5F6E4 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		2755669C2AE6772D00F5F6E4 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		2755669D2AE67A0B00F5F6E4 /* ConditionalSavingOfNSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalSavingOfNSManagedObjectContext.swift; sourceTree = "<group>"; };
+		275566A22AE699A900F5F6E4 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		275566A32AE69A9900F5F6E4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		275566A42AE69A9900F5F6E4 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
+		275566A52AE69A9900F5F6E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		275566A62AE69A9A00F5F6E4 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
 		275B82272A8A596100B4A7BC /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		275CA5572AB1C98A00D5CD03 /* ControllingTheAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingTheAnimationStack.swift; sourceTree = "<group>"; };
@@ -351,6 +362,7 @@
 				2781022E2AE26E20000302F7 /* Day54 */,
 				2781023D2AE4302F000302F7 /* Day55 */,
 				275566662AE5520E00F5F6E4 /* Day56 */,
+				2755668C2AE66F7800F5F6E4 /* Day57 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +416,40 @@
 				275566682AE5526400F5F6E4 /* RatingView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2755668C2AE66F7800F5F6E4 /* Day57 */ = {
+			isa = PBXGroup;
+			children = (
+				2755668D2AE66FB700F5F6E4 /* WhyDoes\.selfWorkForForEach.swift */,
+				275566972AE6764B00F5F6E4 /* CreatingNSManagedObjectSubclasses */,
+				2755669D2AE67A0B00F5F6E4 /* ConditionalSavingOfNSManagedObjectContext.swift */,
+				275566A02AE6996200F5F6E4 /* EnsuringCoreDataObjectsAreUniqueUsingConstraints */,
+			);
+			path = Day57;
+			sourceTree = "<group>";
+		};
+		275566972AE6764B00F5F6E4 /* CreatingNSManagedObjectSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2755669B2AE6772D00F5F6E4 /* Movie+CoreDataClass.swift */,
+				2755669C2AE6772D00F5F6E4 /* Movie+CoreDataProperties.swift */,
+				275566982AE6769400F5F6E4 /* DataController.swift */,
+				275566992AE676C600F5F6E4 /* CoreDataProject.xcdatamodeld */,
+			);
+			path = CreatingNSManagedObjectSubclasses;
+			sourceTree = "<group>";
+		};
+		275566A02AE6996200F5F6E4 /* EnsuringCoreDataObjectsAreUniqueUsingConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				275566A52AE69A9900F5F6E4 /* ContentView.swift */,
+				275566A42AE69A9900F5F6E4 /* CoreDataProjectApp.swift */,
+				275566A32AE69A9900F5F6E4 /* DataController.swift */,
+				275566A62AE69A9A00F5F6E4 /* PersistenceController.swift */,
+				275566A12AE699A900F5F6E4 /* CoreDataProject.xcdatamodeld */,
+			);
+			path = EnsuringCoreDataObjectsAreUniqueUsingConstraints;
 			sourceTree = "<group>";
 		};
 		275CA5562AB1C93F00D5CD03 /* Day33 */ = {
@@ -665,7 +711,7 @@
 				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 27514E992A82176100E16169 /* Build configuration list for PBXProject "100DaysOfSwiftUI" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -773,6 +819,26 @@
 			);
 			currentVersion = 2755666D2AE5526400F5F6E4 /* Bookworm.xcdatamodel */;
 			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		275566992AE676C600F5F6E4 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2755669A2AE676C600F5F6E4 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 2755669A2AE676C600F5F6E4 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		275566A12AE699A900F5F6E4 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				275566A22AE699A900F5F6E4 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 275566A22AE699A900F5F6E4 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
