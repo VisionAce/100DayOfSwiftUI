@@ -85,6 +85,13 @@
 		275566A42AE69A9900F5F6E4 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		275566A52AE69A9900F5F6E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		275566A62AE69A9A00F5F6E4 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		275566A82AE7D24300F5F6E4 /* Filtering@FetchRequestUsingNSPredicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering@FetchRequestUsingNSPredicate.swift"; sourceTree = "<group>"; };
+		275566B02AE82D9B00F5F6E4 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		275566B12AE82D9C00F5F6E4 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
+		275566B32AE82D9C00F5F6E4 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		275566B42AE82D9C00F5F6E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		275566B52AE82D9C00F5F6E4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		275566B62AE82D9C00F5F6E4 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		27581FFB2A9E1F650055E559 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
 		275B82272A8A596100B4A7BC /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		275CA5572AB1C98A00D5CD03 /* ControllingTheAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingTheAnimationStack.swift; sourceTree = "<group>"; };
@@ -136,6 +143,15 @@
 		278102452AE43080000302F7 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		278102482AE43080000302F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		278102492AE43080000302F7 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		27860C902AEA6C6200B0E72E /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		27860C912AEA6C6300B0E72E /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		27860C922AEA6C6300B0E72E /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		27860C932AEA6C6300B0E72E /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		27860C942AEA6C7400B0E72E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27860C952AEA6C7400B0E72E /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		27860C962AEA6C7400B0E72E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		27860C982AEA6C7400B0E72E /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		27860C992AEA6C7400B0E72E /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		27887F9F2AA9CF88000AAD82 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		27887FA02AA9CFB5000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestChallenge.swift; sourceTree = "<group>"; };
@@ -363,6 +379,7 @@
 				2781023D2AE4302F000302F7 /* Day55 */,
 				275566662AE5520E00F5F6E4 /* Day56 */,
 				2755668C2AE66F7800F5F6E4 /* Day57 */,
+				275566A72AE7D20800F5F6E4 /* Day58 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -450,6 +467,29 @@
 				275566A12AE699A900F5F6E4 /* CoreDataProject.xcdatamodeld */,
 			);
 			path = EnsuringCoreDataObjectsAreUniqueUsingConstraints;
+			sourceTree = "<group>";
+		};
+		275566A72AE7D20800F5F6E4 /* Day58 */ = {
+			isa = PBXGroup;
+			children = (
+				275566A82AE7D24300F5F6E4 /* Filtering@FetchRequestUsingNSPredicate.swift */,
+				275566AF2AE82D6300F5F6E4 /* DynamicallyFiltering@FetchRequestWithSwiftUI */,
+				27860C8F2AEA6BCE00B0E72E /* One-to-manyRelationshipsWithCoreData,SwiftUI,And@FetchRequest */,
+			);
+			path = Day58;
+			sourceTree = "<group>";
+		};
+		275566AF2AE82D6300F5F6E4 /* DynamicallyFiltering@FetchRequestWithSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				275566B42AE82D9C00F5F6E4 /* ContentView.swift */,
+				275566B12AE82D9C00F5F6E4 /* CoreDataProjectApp.swift */,
+				275566B52AE82D9C00F5F6E4 /* DataController.swift */,
+				275566B02AE82D9B00F5F6E4 /* FilteredList.swift */,
+				275566B62AE82D9C00F5F6E4 /* PersistenceController.swift */,
+				275566B22AE82D9C00F5F6E4 /* CoreDataProject.xcdatamodeld */,
+			);
+			path = "DynamicallyFiltering@FetchRequestWithSwiftUI";
 			sourceTree = "<group>";
 		};
 		275CA5562AB1C93F00D5CD03 /* Day33 */ = {
@@ -591,6 +631,22 @@
 				278102402AE43080000302F7 /* DetailView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		27860C8F2AEA6BCE00B0E72E /* One-to-manyRelationshipsWithCoreData,SwiftUI,And@FetchRequest */ = {
+			isa = PBXGroup;
+			children = (
+				27860C912AEA6C6300B0E72E /* Candy+CoreDataClass.swift */,
+				27860C922AEA6C6300B0E72E /* Candy+CoreDataProperties.swift */,
+				27860C932AEA6C6300B0E72E /* Country+CoreDataClass.swift */,
+				27860C902AEA6C6200B0E72E /* Country+CoreDataProperties.swift */,
+				27860C942AEA6C7400B0E72E /* ContentView.swift */,
+				27860C992AEA6C7400B0E72E /* CoreDataProjectApp.swift */,
+				27860C952AEA6C7400B0E72E /* PersistenceController.swift */,
+				27860C962AEA6C7400B0E72E /* DataController.swift */,
+				27860C972AEA6C7400B0E72E /* CoreDataProject.xcdatamodeld */,
+			);
+			path = "One-to-manyRelationshipsWithCoreData,SwiftUI,And@FetchRequest";
 			sourceTree = "<group>";
 		};
 		27887F9E2AA9CF22000AAD82 /* Day27 */ = {
@@ -842,6 +898,16 @@
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
+		275566B22AE82D9C00F5F6E4 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				275566B32AE82D9C00F5F6E4 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 275566B32AE82D9C00F5F6E4 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		278102082AE15D22000302F7 /* Bookworm.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
@@ -869,6 +935,16 @@
 			);
 			currentVersion = 278102432AE43080000302F7 /* Bookworm.xcdatamodel */;
 			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		27860C972AEA6C7400B0E72E /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27860C982AEA6C7400B0E72E /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 27860C982AEA6C7400B0E72E /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
