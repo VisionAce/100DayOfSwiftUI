@@ -168,6 +168,13 @@
 		27B521722AB07C9A00204571 /* CustomizingAnimationsInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimationsInSwiftUI.swift; sourceTree = "<group>"; };
 		27B521732AB08B5A00204571 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		27B521742AB08F2D00204571 /* CreatingExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingExplicitAnimations.swift; sourceTree = "<group>"; };
+		27C5BF492AECB385002D967A /* SingerFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerFilterView.swift; sourceTree = "<group>"; };
+		27C5BF4A2AECB385002D967A /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		27C5BF4B2AECB385002D967A /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		27C5BF4C2AECB385002D967A /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		27C5BF4E2AECB3A6002D967A /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		27C5BF502AECB409002D967A /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
+		27C5BF522AECB416002D967A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		27C874362AD2BBA300356430 /* SpecialEffectsInSwiftUI-BlursBlendingAndMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpecialEffectsInSwiftUI-BlursBlendingAndMore.swift"; sourceTree = "<group>"; };
 		27C874372AD2BFDE00356430 /* AnimatingSimpleShapesWithAnimatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingSimpleShapesWithAnimatableData.swift; sourceTree = "<group>"; };
 		27CF01E62AAC3975003E99D7 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
@@ -380,6 +387,7 @@
 				275566662AE5520E00F5F6E4 /* Day56 */,
 				2755668C2AE66F7800F5F6E4 /* Day57 */,
 				275566A72AE7D20800F5F6E4 /* Day58 */,
+				27C5BF482AECB33D002D967A /* Day59 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -688,6 +696,28 @@
 			path = Day32;
 			sourceTree = "<group>";
 		};
+		27C5BF482AECB33D002D967A /* Day59 */ = {
+			isa = PBXGroup;
+			children = (
+				27C5BF4F2AECB3E3002D967A /* BasicCoreData */,
+				27C5BF4B2AECB385002D967A /* Singer+CoreDataClass.swift */,
+				27C5BF4A2AECB385002D967A /* Singer+CoreDataProperties.swift */,
+				27C5BF4C2AECB385002D967A /* FilteredList.swift */,
+				27C5BF492AECB385002D967A /* SingerFilterView.swift */,
+				27C5BF4D2AECB3A6002D967A /* CoreDataProject.xcdatamodeld */,
+			);
+			path = Day59;
+			sourceTree = "<group>";
+		};
+		27C5BF4F2AECB3E3002D967A /* BasicCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				27C5BF502AECB409002D967A /* CoreDataProjectApp.swift */,
+				27C5BF522AECB416002D967A /* PersistenceController.swift */,
+			);
+			path = BasicCoreData;
+			sourceTree = "<group>";
+		};
 		27C874352AD2BB5C00356430 /* Day45 */ = {
 			isa = PBXGroup;
 			children = (
@@ -944,6 +974,16 @@
 				27860C982AEA6C7400B0E72E /* CoreDataProject.xcdatamodel */,
 			);
 			currentVersion = 27860C982AEA6C7400B0E72E /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		27C5BF4D2AECB3A6002D967A /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27C5BF4E2AECB3A6002D967A /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 27C5BF4E2AECB3A6002D967A /* CoreDataProject.xcdatamodel */;
 			path = CoreDataProject.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
