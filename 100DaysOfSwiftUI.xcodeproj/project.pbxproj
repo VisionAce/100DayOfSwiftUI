@@ -168,6 +168,8 @@
 		27B521722AB07C9A00204571 /* CustomizingAnimationsInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimationsInSwiftUI.swift; sourceTree = "<group>"; };
 		27B521732AB08B5A00204571 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		27B521742AB08F2D00204571 /* CreatingExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingExplicitAnimations.swift; sourceTree = "<group>"; };
+		27C1DC0E2AEFAA7300E25528 /* HowPropertyWrappersBecomeStructs&RespondingToStateChangesUsingOnChange().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HowPropertyWrappersBecomeStructs&RespondingToStateChangesUsingOnChange().swift"; sourceTree = "<group>"; };
+		27C1DC0F2AEFB49B00E25528 /* ShowingMultipleOptionsWithConfirmationDialog().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowingMultipleOptionsWithConfirmationDialog().swift"; sourceTree = "<group>"; };
 		27C5BF492AECB385002D967A /* SingerFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerFilterView.swift; sourceTree = "<group>"; };
 		27C5BF4A2AECB385002D967A /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		27C5BF4B2AECB385002D967A /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -388,6 +390,7 @@
 				2755668C2AE66F7800F5F6E4 /* Day57 */,
 				275566A72AE7D20800F5F6E4 /* Day58 */,
 				27C5BF482AECB33D002D967A /* Day59 */,
+				27C1DC0D2AEFA9D200E25528 /* Day62 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -694,6 +697,15 @@
 				27B521742AB08F2D00204571 /* CreatingExplicitAnimations.swift */,
 			);
 			path = Day32;
+			sourceTree = "<group>";
+		};
+		27C1DC0D2AEFA9D200E25528 /* Day62 */ = {
+			isa = PBXGroup;
+			children = (
+				27C1DC0E2AEFAA7300E25528 /* HowPropertyWrappersBecomeStructs&RespondingToStateChangesUsingOnChange().swift */,
+				27C1DC0F2AEFB49B00E25528 /* ShowingMultipleOptionsWithConfirmationDialog().swift */,
+			);
+			path = Day62;
 			sourceTree = "<group>";
 		};
 		27C5BF482AECB33D002D967A /* Day59 */ = {
