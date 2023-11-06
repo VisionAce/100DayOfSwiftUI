@@ -159,6 +159,8 @@
 		27887FA02AA9CFB5000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		27887FA22AAB59C7000AAD82 /* BetterRestChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestChallenge.swift; sourceTree = "<group>"; };
 		27887FA32AAB5A0F000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		278FEB022AF9252D0037F7B3 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		278FEB032AF926E70037F7B3 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
 		279E64882A9CC7E600978F1E /* Day18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18.swift; sourceTree = "<group>"; };
 		27AF5F2B2A880EC600A0DBFF /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
 		27B0FC372AD3B5A0004F3653 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -186,6 +188,8 @@
 		27CF01E72AAC3F59003E99D7 /* LoadingResourcesFromYourAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResourcesFromYourAppBundle.swift; sourceTree = "<group>"; };
 		27CF01E82AAC44EC003E99D7 /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
 		27D314C92A8B9AE800E74489 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
+		27E27EF02AF2A6FE00F3CF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27E27EF12AF2A70500F3CF9C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		27E5D3EE2AA0E55900E5CB62 /* Day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21.swift; sourceTree = "<group>"; };
 		27F365BA2AC93D2200FD39E5 /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		27F365BB2AC93D2200FD39E5 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
@@ -395,6 +399,7 @@
 				27C5BF482AECB33D002D967A /* Day59 */,
 				27C1DC0D2AEFA9D200E25528 /* Day62 */,
 				276211512AF0F2E00023884E /* Day63 */,
+				27E27EEF2AF2A6BB00F3CF9C /* Day64 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -700,6 +705,22 @@
 			path = Day28;
 			sourceTree = "<group>";
 		};
+		278FEAFE2AF919BA0037F7B3 /* UsingCoordinatorsToManageSwiftUIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E27EF12AF2A70500F3CF9C /* ImagePicker.swift */,
+			);
+			path = UsingCoordinatorsToManageSwiftUIViewControllers;
+			sourceTree = "<group>";
+		};
+		278FEB012AF924DF0037F7B3 /* HowToSaveImagesToTheUser’sPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				278FEB022AF9252D0037F7B3 /* ImageSaver.swift */,
+			);
+			path = "HowToSaveImagesToTheUser’sPhotoLibrary";
+			sourceTree = "<group>";
+		};
 		27B0FC602AD5744A004F3653 /* Day46 */ = {
 			isa = PBXGroup;
 			children = (
@@ -772,6 +793,17 @@
 				27CF01E82AAC44EC003E99D7 /* WorkingWithStrings.swift */,
 			);
 			path = Day29;
+			sourceTree = "<group>";
+		};
+		27E27EEF2AF2A6BB00F3CF9C /* Day64 */ = {
+			isa = PBXGroup;
+			children = (
+				278FEB032AF926E70037F7B3 /* PhotosPickerView.swift */,
+				27E27EF02AF2A6FE00F3CF9C /* ContentView.swift */,
+				278FEAFE2AF919BA0037F7B3 /* UsingCoordinatorsToManageSwiftUIViewControllers */,
+				278FEB012AF924DF0037F7B3 /* HowToSaveImagesToTheUser’sPhotoLibrary */,
+			);
+			path = Day64;
 			sourceTree = "<group>";
 		};
 		27F365B72AC93C2600FD39E5 /* Day40 */ = {
