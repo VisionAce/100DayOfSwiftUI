@@ -64,6 +64,8 @@
 		275238352ACE5B0200D3EA1A /* CreatingCustomPathsWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPathsWithSwiftUI.swift; sourceTree = "<group>"; };
 		275238362ACE61B500D3EA1A /* PathsVsShapesInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVsShapesInSwiftUI.swift; sourceTree = "<group>"; };
 		275238372ACE725700D3EA1A /* AddingStrokeBorder()SupportWithInsettableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddingStrokeBorder()SupportWithInsettableShape.swift"; sourceTree = "<group>"; };
+		275255202AFD25C800BDD3EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		275255212AFD25DF00BDD3EB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		275520232AB377A700AB14FF /* GuessTheFlagChallengeDay34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagChallengeDay34.swift; sourceTree = "<group>"; };
 		275520242AB377D400AB14FF /* WiggleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleModifier.swift; sourceTree = "<group>"; };
 		275566682AE5526400F5F6E4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 				276211512AF0F2E00023884E /* Day63 */,
 				27E27EEF2AF2A6BB00F3CF9C /* Day64 */,
 				27AAC4692AFB851A00D22AAC /* Day65 */,
+				2752551F2AFD255300BDD3EB /* Day66 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -426,6 +429,15 @@
 				275238372ACE725700D3EA1A /* AddingStrokeBorder()SupportWithInsettableShape.swift */,
 			);
 			path = Day43;
+			sourceTree = "<group>";
+		};
+		2752551F2AFD255300BDD3EB /* Day66 */ = {
+			isa = PBXGroup;
+			children = (
+				275255202AFD25C800BDD3EB /* ContentView.swift */,
+				275255212AFD25DF00BDD3EB /* ImageSaver.swift */,
+			);
+			path = Day66;
 			sourceTree = "<group>";
 		};
 		275520222AB376FA00AB14FF /* Day34 */ = {
