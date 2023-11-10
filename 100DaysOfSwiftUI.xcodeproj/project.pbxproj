@@ -119,6 +119,10 @@
 		277602462ABC1F0200B72A74 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		277602472ABC1F0C00B72A74 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		2778E18E2A8551020018B06C /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
+		277B51892AFE37DB008271B8 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
+		277B518A2AFE37E3008271B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		277B518B2AFE37EC008271B8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		277B518C2AFE37FA008271B8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		277E84392A9B7BB50096A5E2 /* Day17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
 		2780F95F2ADAF27C006F8C28 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		2780F9602ADAF27C006F8C28 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
@@ -408,6 +412,7 @@
 				27E27EEF2AF2A6BB00F3CF9C /* Day64 */,
 				27AAC4692AFB851A00D22AAC /* Day65 */,
 				2752551F2AFD255300BDD3EB /* Day66 */,
+				277B51882AFE37A9008271B8 /* Day67 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -591,6 +596,17 @@
 				277602472ABC1F0C00B72A74 /* Expenses.swift */,
 			);
 			path = Day37;
+			sourceTree = "<group>";
+		};
+		277B51882AFE37A9008271B8 /* Day67 */ = {
+			isa = PBXGroup;
+			children = (
+				277B51892AFE37DB008271B8 /* InstafilterApp.swift */,
+				277B518A2AFE37E3008271B8 /* ContentView.swift */,
+				277B518B2AFE37EC008271B8 /* ImageSaver.swift */,
+				277B518C2AFE37FA008271B8 /* ImagePicker.swift */,
+			);
+			path = Day67;
 			sourceTree = "<group>";
 		};
 		2780F94D2ADAF1C2006F8C28 /* Day50 */ = {
