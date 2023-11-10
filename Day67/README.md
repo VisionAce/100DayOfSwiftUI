@@ -23,7 +23,7 @@ Challenge
 
 >Explore the range of available Core Image filters, and add any three of your choosing to the app.
 
-###加入5個濾鏡
+加入5個濾鏡
 - [Button][4]
 - [Key][5]
 
