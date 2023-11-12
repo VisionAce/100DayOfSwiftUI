@@ -205,6 +205,8 @@
 		27E27EF02AF2A6FE00F3CF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27E27EF12AF2A70500F3CF9C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		27E5D3EE2AA0E55900E5CB62 /* Day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21.swift; sourceTree = "<group>"; };
+		27F2F2862B010395004F4FB8 /* IntegratingMapKitWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingMapKitWithSwiftUI.swift; sourceTree = "<group>"; };
+		27F2F2872B0128DD004F4FB8 /* UsingTouchIDAndFaceIDWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTouchIDAndFaceIDWithSwiftUI.swift; sourceTree = "<group>"; };
 		27F365BA2AC93D2200FD39E5 /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		27F365BB2AC93D2200FD39E5 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		27F365BC2AC93D2200FD39E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -418,6 +420,7 @@
 				2752551F2AFD255300BDD3EB /* Day66 */,
 				277B51882AFE37A9008271B8 /* Day67 */,
 				277B51A72AFF47CC008271B8 /* Day68 */,
+				27F2F2852B010350004F4FB8 /* Day69 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -872,6 +875,15 @@
 				278FEB012AF924DF0037F7B3 /* HowToSaveImagesToTheUser’sPhotoLibrary */,
 			);
 			path = Day64;
+			sourceTree = "<group>";
+		};
+		27F2F2852B010350004F4FB8 /* Day69 */ = {
+			isa = PBXGroup;
+			children = (
+				27F2F2862B010395004F4FB8 /* IntegratingMapKitWithSwiftUI.swift */,
+				27F2F2872B0128DD004F4FB8 /* UsingTouchIDAndFaceIDWithSwiftUI.swift */,
+			);
+			path = Day69;
 			sourceTree = "<group>";
 		};
 		27F365B72AC93C2600FD39E5 /* Day40 */ = {
