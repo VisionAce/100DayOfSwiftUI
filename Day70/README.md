@@ -52,7 +52,10 @@ It focuses on several specific topics:
       }
 
 ## 📸 Screenshots
-[![Demo](https://img.youtube.com/shorts/IIMoryHEow0/maxresdefault.jpg)](https://youtube.com/shorts/IIMoryHEow0)
+[![Demo](https://img.youtube.com/shorts/IIMoryHEow0/maxresdefault.jpg)](https://youtube.com/watch?=IIMoryHEow0)
+
+<iframe width="300" height="600" src="https://youtube.com/embed/IIMoryHEow0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/70
