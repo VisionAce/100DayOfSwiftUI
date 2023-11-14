@@ -52,6 +52,7 @@ It focuses on several specific topics:
       }
 
 ## 📸 Screenshots
+[![Demo](https://youtube.com/shorts/IIMoryHEow0/0.jpg)](https://youtube.com/shorts/IIMoryHEow0)
 
 <iframe width="300" height="600" src="https://youtube.com/shorts/IIMoryHEow0" title="Adding user locations to a map" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
