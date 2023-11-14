@@ -52,7 +52,8 @@ It focuses on several specific topics:
       }
 
 ## 📸 Screenshots
-[Demo][6]
+
+<iframe width="300" height="600" src="https://youtube.com/shorts/IIMoryHEow0" title="Adding user locations to a map" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/70
@@ -60,4 +61,3 @@ It focuses on several specific topics:
 [3]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/0ee6a25b400f292d9b4fdea2345d655368d0dfd3/Day70/ContentView.swift#L45C1-L49C14
 [4]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/0ee6a25b400f292d9b4fdea2345d655368d0dfd3/Day70/ContentView.swift#L17C1-L18C39
 [5]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/0ee6a25b400f292d9b4fdea2345d655368d0dfd3/Day70/ContentView.swift#L61C1-L64C22
-[6]: https://youtube.com/shorts/IIMoryHEow0
