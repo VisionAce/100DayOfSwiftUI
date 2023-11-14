@@ -18,6 +18,10 @@
 		270E6C3C2A9F1FFA000C9C21 /* ButtonsAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImages.swift; sourceTree = "<group>"; };
 		270E6C3D2A9F2898000C9C21 /* ShowingAlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAlertMessages.swift; sourceTree = "<group>"; };
 		2720798F2A923AD5008BFBFE /* Day15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15.swift; sourceTree = "<group>"; };
+		27207A952B0360C300CEF797 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		27207A962B0360C300CEF797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27207A972B0360C300CEF797 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		27207A982B0360C300CEF797 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		272140222ADEE4CF00B4347E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		272140252ADEE4CF00B4347E /* SharedOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedOrder.swift; sourceTree = "<group>"; };
 		272140292ADEE4CF00B4347E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -252,6 +256,17 @@
 			path = Day20;
 			sourceTree = "<group>";
 		};
+		27207A942B035B6D00CEF797 /* Day70 */ = {
+			isa = PBXGroup;
+			children = (
+				27207A982B0360C300CEF797 /* BucketListApp.swift */,
+				27207A962B0360C300CEF797 /* ContentView.swift */,
+				27207A952B0360C300CEF797 /* EditView.swift */,
+				27207A972B0360C300CEF797 /* Location.swift */,
+			);
+			path = Day70;
+			sourceTree = "<group>";
+		};
 		272140202ADEE41D00B4347E /* Day52 */ = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +436,7 @@
 				277B51882AFE37A9008271B8 /* Day67 */,
 				277B51A72AFF47CC008271B8 /* Day68 */,
 				27F2F2852B010350004F4FB8 /* Day69 */,
+				27207A942B035B6D00CEF797 /* Day70 */,
 			);
 			sourceTree = "<group>";
 		};
