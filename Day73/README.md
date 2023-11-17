@@ -38,14 +38,14 @@ We don't quite need to put all modifiers inside the button -- but certainly the 
 
 ## Challenge 3
 
-> Create another view model, this time for **EditView**. What you put in the view model is down to you, but I would recommend leaving **dismiss** and **onSave** in the view itself – the former uses the environment, which can only be read by the view, and the latter doesn’t really add anything when moved into the model.
+> Create another view model, this time for ==EditView==. What you put in the view model is down to you, but I would recommend leaving **dismiss** and **onSave** in the view itself – the former uses the environment, which can only be read by the view, and the latter doesn’t really add anything when moved into the model.
 
 - [EditView][6]
 - [EditView-ViewModel][7]
 
 ## Tip
 
- That last challenge will require you to make a **StateObject** instance in your **EditView** initializer – remember to use an underscore with the property name!
+ That last challenge will require you to make a ==StateObject== instance in your ==EditView== initializer – remember to use an underscore with the property name!
  
  
 
