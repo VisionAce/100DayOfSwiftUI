@@ -197,6 +197,22 @@
 		27887FA32AAB5A0F000AAD82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		278FEB022AF9252D0037F7B3 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		278FEB032AF926E70037F7B3 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
+		2795CD9B2B0DD40100E5935A /* CupcakeCorner_CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner_CheckoutView.swift; sourceTree = "<group>"; };
+		2795CD9E2B0DDC8000E5935A /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
+		2795CD9F2B0DDCB400E5935A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		2795CDA02B0DDCB400E5935A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2795CDA12B0DDCB400E5935A /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		2795CDA22B0DDCB400E5935A /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		2795CDA42B0E073A00E5935A /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		2795CDA52B0E073A00E5935A /* astronauts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		2795CDA62B0E073A00E5935A /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		2795CDA72B0E073A00E5935A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2795CDA82B0E073A00E5935A /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		2795CDA92B0E073A00E5935A /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		2795CDAA2B0E073A00E5935A /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		2795CDAB2B0E073A00E5935A /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		2795CDAC2B0E073A00E5935A /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
+		2795CDAD2B0E073A00E5935A /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		279C6E932B054B1500887B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		279C6E942B054B1500887B7E /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		279C6E952B054B1500887B7E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -540,6 +556,7 @@
 				27511F7D2B07D085004B2A61 /* Day73 */,
 				27283E812B08C24400199409 /* Day74 */,
 				277315682B0B3DBD00437DD8 /* Day75 */,
+				2795CD9A2B0DCA2A00E5935A /* Day76 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -926,6 +943,77 @@
 				278FEB022AF9252D0037F7B3 /* ImageSaver.swift */,
 			);
 			path = "HowToSaveImagesToTheUser’sPhotoLibrary";
+			sourceTree = "<group>";
+		};
+		2795CD9A2B0DCA2A00E5935A /* Day76 */ = {
+			isa = PBXGroup;
+			children = (
+				2795CD9C2B0DD92200E5935A /* Challenge1 */,
+				2795CD9D2B0DD93800E5935A /* Challenge2 */,
+				2795CDA32B0DF7A200E5935A /* Challenge3 */,
+			);
+			path = Day76;
+			sourceTree = "<group>";
+		};
+		2795CD9C2B0DD92200E5935A /* Challenge1 */ = {
+			isa = PBXGroup;
+			children = (
+				2795CD9B2B0DD40100E5935A /* CupcakeCorner_CheckoutView.swift */,
+			);
+			path = Challenge1;
+			sourceTree = "<group>";
+		};
+		2795CD9D2B0DD93800E5935A /* Challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				2795CD9E2B0DDC8000E5935A /* iExpenseApp.swift */,
+				2795CDA02B0DDCB400E5935A /* ContentView.swift */,
+				2795CD9F2B0DDCB400E5935A /* AddView.swift */,
+				2795CDA12B0DDCB400E5935A /* ExpenseItem.swift */,
+				2795CDA22B0DDCB400E5935A /* Expenses.swift */,
+			);
+			path = Challenge2;
+			sourceTree = "<group>";
+		};
+		2795CDA32B0DF7A200E5935A /* Challenge3 */ = {
+			isa = PBXGroup;
+			children = (
+				2795CDAC2B0E073A00E5935A /* MoonshotApp.swift */,
+				2795CDB02B0E07C100E5935A /* View */,
+				2795CDAF2B0E07AA00E5935A /* Extension */,
+				2795CDAE2B0E077D00E5935A /* Model */,
+				2795CDA52B0E073A00E5935A /* astronauts.json */,
+				2795CDAA2B0E073A00E5935A /* missions.json */,
+			);
+			path = Challenge3;
+			sourceTree = "<group>";
+		};
+		2795CDAE2B0E077D00E5935A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2795CDA82B0E073A00E5935A /* Astronaut.swift */,
+				2795CDAB2B0E073A00E5935A /* Mission.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2795CDAF2B0E07AA00E5935A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2795CDA42B0E073A00E5935A /* Color-Theme.swift */,
+				2795CDA62B0E073A00E5935A /* Bundle-Decodable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2795CDB02B0E07C100E5935A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2795CDA72B0E073A00E5935A /* ContentView.swift */,
+				2795CDAD2B0E073A00E5935A /* MissionView.swift */,
+				2795CDA92B0E073A00E5935A /* AstronautView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		279C6E922B054AD700887B7E /* Day72 */ = {
