@@ -48,7 +48,7 @@ Use
 - Hidden DividerView
   - .accessibilityHidden(true)
     [commit1][8]
-    [c0mmit2][9]
+    [commit2][9]
 - Add button trait for CrewMemberView
   - [.accessibilityAddTraits(.isButton)][10]
  
