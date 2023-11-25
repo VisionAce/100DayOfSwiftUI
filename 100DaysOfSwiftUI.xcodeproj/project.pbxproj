@@ -213,6 +213,8 @@
 		2795CDAB2B0E073A00E5935A /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		2795CDAC2B0E073A00E5935A /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		2795CDAD2B0E073A00E5935A /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		2795CDCE2B0F8F1E00E5935A /* OperatorOverloading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorOverloading.swift; sourceTree = "<group>"; };
+		2795CDD12B0F97A200E5935A /* CustomPropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPropertyWrappers.swift; sourceTree = "<group>"; };
 		279C6E932B054B1500887B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		279C6E942B054B1500887B7E /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		279C6E952B054B1500887B7E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -557,6 +559,7 @@
 				27283E812B08C24400199409 /* Day74 */,
 				277315682B0B3DBD00437DD8 /* Day75 */,
 				2795CD9A2B0DCA2A00E5935A /* Day76 */,
+				2795CDB12B0F6B4900E5935A /* Day77 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1014,6 +1017,23 @@
 				2795CDA92B0E073A00E5935A /* AstronautView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2795CDB12B0F6B4900E5935A /* Day77 */ = {
+			isa = PBXGroup;
+			children = (
+				2795CDD22B0F97AD00E5935A /* KeyPoints */,
+			);
+			path = Day77;
+			sourceTree = "<group>";
+		};
+		2795CDD22B0F97AD00E5935A /* KeyPoints */ = {
+			isa = PBXGroup;
+			children = (
+				2795CDCE2B0F8F1E00E5935A /* OperatorOverloading.swift */,
+				2795CDD12B0F97A200E5935A /* CustomPropertyWrappers.swift */,
+			);
+			path = KeyPoints;
 			sourceTree = "<group>";
 		};
 		279C6E922B054AD700887B7E /* Day72 */ = {
