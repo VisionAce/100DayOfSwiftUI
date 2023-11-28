@@ -36,6 +36,11 @@
 		27269E492B14B28300EBE3FF /* AddingCustomRowSwipeActionsToAList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCustomRowSwipeActionsToAList.swift; sourceTree = "<group>"; };
 		27269E4A2B14B6D000EBE3FF /* SchedulingLocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLocalNotifications.swift; sourceTree = "<group>"; };
 		27269E4E2B14BC4600EBE3FF /* AddingSwiftPackageDependenciesInXcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSwiftPackageDependenciesInXcode.swift; sourceTree = "<group>"; };
+		27269E562B15FDD200EBE3FF /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
+		27269E572B15FDD200EBE3FF /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		27269E582B15FDD200EBE3FF /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		27269E592B15FDD200EBE3FF /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		27269E5A2B15FDD200EBE3FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27283E822B08C28700199409 /* IdentifyingViewsWithUsefulLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyingViewsWithUsefulLabels.swift; sourceTree = "<group>"; };
 		27283E832B08C85B00199409 /* HidingAndGroupingAccessibilityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidingAndGroupingAccessibilityData.swift; sourceTree = "<group>"; };
 		27283E842B08CFF400199409 /* ReadingTheValueOfControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTheValueOfControls.swift; sourceTree = "<group>"; };
@@ -366,6 +371,18 @@
 			path = Day81;
 			sourceTree = "<group>";
 		};
+		27269E552B15FD9F00EBE3FF /* Day82 */ = {
+			isa = PBXGroup;
+			children = (
+				27269E562B15FDD200EBE3FF /* HotProspectsApp.swift */,
+				27269E5A2B15FDD200EBE3FF /* ContentView.swift */,
+				27269E582B15FDD200EBE3FF /* Prospect.swift */,
+				27269E592B15FDD200EBE3FF /* ProspectsView.swift */,
+				27269E572B15FDD200EBE3FF /* MeView.swift */,
+			);
+			path = Day82;
+			sourceTree = "<group>";
+		};
 		27283E812B08C24400199409 /* Day74 */ = {
 			isa = PBXGroup;
 			children = (
@@ -584,6 +601,7 @@
 				277700872B12548B003AF6B6 /* Day79 */,
 				27B6173F2B13B0E30096ADAC /* Day80 */,
 				27269E472B14AD8000EBE3FF /* Day81 */,
+				27269E552B15FD9F00EBE3FF /* Day82 */,
 			);
 			sourceTree = "<group>";
 		};
