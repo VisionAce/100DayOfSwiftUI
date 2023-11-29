@@ -266,6 +266,9 @@
 		27D314C92A8B9AE800E74489 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
 		27E27EF02AF2A6FE00F3CF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27E27EF12AF2A70500F3CF9C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		27E506F52B17385E004F81AA /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		27E506F62B173872004F81AA /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		27E506F72B173894004F81AA /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		27E5D3EE2AA0E55900E5CB62 /* Day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21.swift; sourceTree = "<group>"; };
 		27ECCCE52B13B5DA001AB8FD /* UnderstandingSwift’sResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnderstandingSwift’sResultType.swift"; sourceTree = "<group>"; };
 		27ECCCE62B13B80F001AB8FD /* ControllingImageInterpolationInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingImageInterpolationInSwiftUI.swift; sourceTree = "<group>"; };
@@ -602,6 +605,7 @@
 				27B6173F2B13B0E30096ADAC /* Day80 */,
 				27269E472B14AD8000EBE3FF /* Day81 */,
 				27269E552B15FD9F00EBE3FF /* Day82 */,
+				27E506F42B1737E4004F81AA /* Day83 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1213,6 +1217,16 @@
 				278FEB012AF924DF0037F7B3 /* HowToSaveImagesToTheUser’sPhotoLibrary */,
 			);
 			path = Day64;
+			sourceTree = "<group>";
+		};
+		27E506F42B1737E4004F81AA /* Day83 */ = {
+			isa = PBXGroup;
+			children = (
+				27E506F52B17385E004F81AA /* Prospect.swift */,
+				27E506F62B173872004F81AA /* ProspectsView.swift */,
+				27E506F72B173894004F81AA /* MeView.swift */,
+			);
+			path = Day83;
 			sourceTree = "<group>";
 		};
 		27F2F2852B010350004F4FB8 /* Day69 */ = {
