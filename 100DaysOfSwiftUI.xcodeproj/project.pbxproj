@@ -46,6 +46,10 @@
 		27283E842B08CFF400199409 /* ReadingTheValueOfControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTheValueOfControls.swift; sourceTree = "<group>"; };
 		2728403F2A83DDF9002303B8 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		272D0F3D2A9A24680026ABCC /* Day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
+		272DBF782B187B6C006B9D2D /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		272DBF792B187B7F006B9D2D /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		272DBF7A2B187B8F006B9D2D /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		272DBF7B2B187BAF006B9D2D /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		2733F35C2AA1B7AF0068A21C /* Day22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22.swift; sourceTree = "<group>"; };
 		273406452AB599B4008F516F /* SharingSwiftUIStateWith@StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharingSwiftUIStateWith@StateObject.swift"; sourceTree = "<group>"; };
 		273406462AB59EF1008F516F /* ShowingAndHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViews.swift; sourceTree = "<group>"; };
@@ -396,6 +400,17 @@
 			path = Day74;
 			sourceTree = "<group>";
 		};
+		272DBF752B186102006B9D2D /* Day84 */ = {
+			isa = PBXGroup;
+			children = (
+				272DBF7B2B187BAF006B9D2D /* Prospect.swift */,
+				272DBF792B187B7F006B9D2D /* MeView.swift */,
+				272DBF7A2B187B8F006B9D2D /* ImageSaver.swift */,
+				272DBF782B187B6C006B9D2D /* ProspectsView.swift */,
+			);
+			path = Day84;
+			sourceTree = "<group>";
+		};
 		273406292AB58F9A008F516F /* Day35 */ = {
 			isa = PBXGroup;
 			children = (
@@ -606,6 +621,7 @@
 				27269E472B14AD8000EBE3FF /* Day81 */,
 				27269E552B15FD9F00EBE3FF /* Day82 */,
 				27E506F42B1737E4004F81AA /* Day83 */,
+				272DBF752B186102006B9D2D /* Day84 */,
 			);
 			sourceTree = "<group>";
 		};
