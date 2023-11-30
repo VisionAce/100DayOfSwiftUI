@@ -42,19 +42,19 @@ The smart thing to do here is tell our image to render directly from the cached 
 
 1. add this new method to **MeView**
 
-      func updateCode() {
+       func updateCode() {
           qrCode = generateQRCode(from: "\(name)\n\(emailAddress)")
-      }
+       }
 
 2. revert the **qrCode = UIImage(cgImage: cgimg)** line in **generateQRCode()**, just return the **UIImage** directly
 3. change the QR code image to this:
 
-      Image(uiImage: qrCode)
+       Image(uiImage: qrCode)
 4. add these new modifiers after **navigationTitle()**:
 
-      .onAppear(perform: updateCode)
-      .onChange(of: name) { _ in updateCode() }
-      .onChange(of: emailAddress) { _ in updateCode() }
+       .onAppear(perform: updateCode)
+       .onChange(of: name) { _ in updateCode() }
+       .onChange(of: emailAddress) { _ in updateCode() }
       
 - Select “Privacy - Photo Library Additions Usage Description” for the key name.
 Enter “We want to save your QR code.” as the value.
@@ -77,4 +77,4 @@ Enter “We want to save your QR code.” as the value.
 - **getNotificationSettings()** and **requestAuthorization()**
 
 [1]: https://www.hackingwithswift.com/100/swiftui/84
-[2]: 
+[2]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/b79babd1df58fb15e3621e2f1973a2d15c47b789/Day84/ProspectsView.swift#L110C1-L144C6
