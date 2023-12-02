@@ -17,11 +17,11 @@ Focus on several topic:
 
 - onLongPressGesture()
 
-                .onLongPressGesture(minimumDuration: 1) {
-                    print("Long presswd!")
-                } onPressingChanged: { inProgress in
-                    print("In progress: \(inProgress)")
-                }
+      .onLongPressGesture(minimumDuration: 1) {
+        print("Long presswd!")
+      } onPressingChanged: { inProgress in
+        print("In progress: \(inProgress)")
+      }
                 
 - scaleEffect()
 
@@ -31,21 +31,21 @@ Focus on several topic:
   
 - RotateGesture()
   
-                 RotateGesture()
-                     .onChanged { angle in
-                         currentAmount = angle.rotation
-                     }
-                     .onEnded { _ in
-                         finalAmount += currentAmount
-                         currentAmount = .zero
-                     }
+      RotateGesture()
+      .onChanged { angle in
+      currentAmount = angle.rotation
+      }
+      .onEnded { _ in
+      finalAmount += currentAmount
+      currentAmount = .zero
+      }
 
 - **gestures clash**
 
 >In this situation SwiftUI will always give the child’s gesture priority, which means when you tap the text view above you’ll see “Text tapped”.
 
-      struct ContentView: View {
-          var body: some View {
+    struct ContentView: View {
+     var body: some View {
               VStack {
                   Text("Hello, World!")
                       .onTapGesture {
@@ -56,7 +56,7 @@ Focus on several topic:
                   print("VStack tapped")
               }
           }
-      }
+    }
       
   - highPriorityGesture()
   
@@ -90,7 +90,7 @@ his is the actual object that’s responsible for creating vibrations, so we nee
   - [state 2][5]
 
 [1]: https://www.hackingwithswift.com/100/swiftui/86
-[2]: 
-[3]:
-[4]:
-[5]:
+[2]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/3a41b4d6e7d6ce1f42b1f64d42a93b6665997bdc/Day86/HowToUseGesturesInSwiftUI.swift#L32
+[3]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/3a41b4d6e7d6ce1f42b1f64d42a93b6665997bdc/Day86/DisablingUserInteractivityWithAllowsHitTesting().swift#L10C1-L29C2
+[4]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/3a41b4d6e7d6ce1f42b1f64d42a93b6665997bdc/Day86/DisablingUserInteractivityWithAllowsHitTesting().swift#L44
+[5]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/3a41b4d6e7d6ce1f42b1f64d42a93b6665997bdc/Day86/DisablingUserInteractivityWithAllowsHitTesting().swift#L60
