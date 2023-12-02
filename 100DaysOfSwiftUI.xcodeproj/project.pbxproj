@@ -167,6 +167,9 @@
 		277815512B1A15D900D0B633 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
 		277815522B1A15D900D0B633 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		277815532B1A15D900D0B633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2778156F2B1B0DEE00D0B633 /* HowToUseGesturesInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseGesturesInSwiftUI.swift; sourceTree = "<group>"; };
+		277815702B1B22DD00D0B633 /* AddingHapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingHapticEffects.swift; sourceTree = "<group>"; };
+		277815712B1B295800D0B633 /* DisablingUserInteractivityWithAllowsHitTesting().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DisablingUserInteractivityWithAllowsHitTesting().swift"; sourceTree = "<group>"; };
 		2778E18E2A8551020018B06C /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
 		277B51892AFE37DB008271B8 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
 		277B518A2AFE37E3008271B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -629,6 +632,7 @@
 				27E506F42B1737E4004F81AA /* Day83 */,
 				272DBF752B186102006B9D2D /* Day84 */,
 				2778154B2B1A15B600D0B633 /* Day85 */,
+				2778156E2B1AFFC200D0B633 /* Day86 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -886,6 +890,16 @@
 				277815532B1A15D900D0B633 /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2778156E2B1AFFC200D0B633 /* Day86 */ = {
+			isa = PBXGroup;
+			children = (
+				2778156F2B1B0DEE00D0B633 /* HowToUseGesturesInSwiftUI.swift */,
+				277815702B1B22DD00D0B633 /* AddingHapticEffects.swift */,
+				277815712B1B295800D0B633 /* DisablingUserInteractivityWithAllowsHitTesting().swift */,
+			);
+			path = Day86;
 			sourceTree = "<group>";
 		};
 		277B51882AFE37A9008271B8 /* Day67 */ = {
