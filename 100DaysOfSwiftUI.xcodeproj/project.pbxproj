@@ -138,6 +138,9 @@
 		276211522AF0F31A0023884E /* IntegratingCoreImageWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageWithSwiftUI.swift; sourceTree = "<group>"; };
 		276211562AF0F7660023884E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		276211572AF0F7750023884E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		276DF9FC2B1C9ABF0035274B /* TriggeringEventsRepeatedlyUsingATimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggeringEventsRepeatedlyUsingATimer.swift; sourceTree = "<group>"; };
+		276DF9FD2B1CA5B90035274B /* HowToBeNotifiedWhenYourSwiftUIAppMovesToTheBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToBeNotifiedWhenYourSwiftUIAppMovesToTheBackground.swift; sourceTree = "<group>"; };
+		276DF9FE2B1CC17A0035274B /* SupportingSpecificAccessibilityNeedsWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSpecificAccessibilityNeedsWithSwiftUI.swift; sourceTree = "<group>"; };
 		2771BD312AFF9C1B005D84FE /* SwitchingViewStatesWithEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStatesWithEnums.swift; sourceTree = "<group>"; };
 		2771BD322AFF9FB3005D84FE /* ExtensionFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFileManager.swift; sourceTree = "<group>"; };
 		2771D5F02AC7DDFD00F386EE /* ResizingImagesToFitTheScreenUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImagesToFitTheScreenUsingGeometryReader.swift; sourceTree = "<group>"; };
@@ -633,6 +636,7 @@
 				272DBF752B186102006B9D2D /* Day84 */,
 				2778154B2B1A15B600D0B633 /* Day85 */,
 				2778156E2B1AFFC200D0B633 /* Day86 */,
+				276DF9FB2B1C9A760035274B /* Day87 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -781,6 +785,16 @@
 				276211572AF0F7750023884E /* ContentView.swift */,
 			);
 			path = WrappingAUIViewControllerInASwiftUIView;
+			sourceTree = "<group>";
+		};
+		276DF9FB2B1C9A760035274B /* Day87 */ = {
+			isa = PBXGroup;
+			children = (
+				276DF9FC2B1C9ABF0035274B /* TriggeringEventsRepeatedlyUsingATimer.swift */,
+				276DF9FD2B1CA5B90035274B /* HowToBeNotifiedWhenYourSwiftUIAppMovesToTheBackground.swift */,
+				276DF9FE2B1CC17A0035274B /* SupportingSpecificAccessibilityNeedsWithSwiftUI.swift */,
+			);
+			path = Day87;
 			sourceTree = "<group>";
 		};
 		2771D5EF2AC7DD1600F386EE /* Day39 */ = {
