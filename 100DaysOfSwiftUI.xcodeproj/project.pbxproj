@@ -134,6 +134,8 @@
 		275CA5582AB1D2BB00D5CD03 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
 		275CA5592AB1D59500D5CD03 /* ShowingAndHidingViewsWithTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViewsWithTransitions.swift; sourceTree = "<group>"; };
 		275CA55A2AB1DBD300D5CD03 /* BuildingCustomTransitionsUsingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCustomTransitionsUsingViewModifier.swift; sourceTree = "<group>"; };
+		275DBC952B1EEEF200284D27 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		275DBC962B1EEEF700284D27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2761CCD32A8E18AE002B2F78 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
 		276211522AF0F31A0023884E /* IntegratingCoreImageWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageWithSwiftUI.swift; sourceTree = "<group>"; };
 		276211562AF0F7660023884E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -643,6 +645,7 @@
 				2778156E2B1AFFC200D0B633 /* Day86 */,
 				276DF9FB2B1C9A760035274B /* Day87 */,
 				276DFA642B1DDADE0035274B /* Day88 */,
+				275DBC942B1EEECC00284D27 /* Day89 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -773,6 +776,15 @@
 				275CA55A2AB1DBD300D5CD03 /* BuildingCustomTransitionsUsingViewModifier.swift */,
 			);
 			path = Day33;
+			sourceTree = "<group>";
+		};
+		275DBC942B1EEECC00284D27 /* Day89 */ = {
+			isa = PBXGroup;
+			children = (
+				275DBC962B1EEEF700284D27 /* ContentView.swift */,
+				275DBC952B1EEEF200284D27 /* CardView.swift */,
+			);
+			path = Day89;
 			sourceTree = "<group>";
 		};
 		276211512AF0F2E00023884E /* Day63 */ = {
