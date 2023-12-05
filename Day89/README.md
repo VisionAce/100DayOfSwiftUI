@@ -35,7 +35,7 @@ Focus on several topic:
 >When cards are not removed in order, even if the number of cards is **Empty**, the timer does not operate as we intend.
 
 
-<img width="300" height="600" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-12-05%20at%2014.23.50.gif"/>
+<img width="600" height="300" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-12-05%20at%2014.23.50.gif"/>
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/89
