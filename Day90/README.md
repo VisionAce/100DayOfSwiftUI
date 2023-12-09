@@ -12,7 +12,7 @@ Focus on several topic:
  
  
 ## Making iPhones vibrate with UINotificationFeedbackGenerator
-使用觸覺回饋應當合理地判別使用情境。
+使用觸覺回饋，應當合理地判別使用情境。
 例如：我們在答錯的情況才使用，不然當成功或失敗都有回饋時，雖然回饋呈現有差距，但還是讓人搞不清楚差別。
 - [UINotificationFeedbackGenerator()][2]
 - [.notificationOccurred(.error)][3]
@@ -50,11 +50,11 @@ This all matters because rather than creating a closure that calls the EditCards
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/90
-[2]: 
-[3]: 
-[4]: 
-[5]: 
-[6]: 
-[7]: 
-[8]: 
-[9]:
+[2]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/CardView.swift#L14
+[3]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/CardView.swift#L69C1-L71C26
+[4]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/CardView.swift#L65
+[5]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/ContentView.swift#L52C68-L52C68
+[6]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/ContentView.swift#L56C1-L56C53
+[7]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/ContentView.swift#L53C25-L53C70
+[8]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/CardView.swift#L60
+[9]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/f238560f3d12f2caa2fe4e08bc111f1c8eb4b789/Day90/CardView.swift#L82C45-L82C45
