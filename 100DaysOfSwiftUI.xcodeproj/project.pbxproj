@@ -272,6 +272,10 @@
 		27B521732AB08B5A00204571 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		27B521742AB08F2D00204571 /* CreatingExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingExplicitAnimations.swift; sourceTree = "<group>"; };
 		27B617402B13B1510096ADAC /* ManuallyPublishingObservableObjectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyPublishingObservableObjectChanges.swift; sourceTree = "<group>"; };
+		27BE3D972B24C8E70059EB2B /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		27BE3D982B24C8E70059EB2B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		27BE3D992B24C8E70059EB2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27BE3D9A2B24C9040059EB2B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		27C1DC0E2AEFAA7300E25528 /* HowPropertyWrappersBecomeStructs&RespondingToStateChangesUsingOnChange().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HowPropertyWrappersBecomeStructs&RespondingToStateChangesUsingOnChange().swift"; sourceTree = "<group>"; };
 		27C1DC0F2AEFB49B00E25528 /* ShowingMultipleOptionsWithConfirmationDialog().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowingMultipleOptionsWithConfirmationDialog().swift"; sourceTree = "<group>"; };
 		27C5BF492AECB385002D967A /* SingerFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerFilterView.swift; sourceTree = "<group>"; };
@@ -646,6 +650,7 @@
 				276DF9FB2B1C9A760035274B /* Day87 */,
 				276DFA642B1DDADE0035274B /* Day88 */,
 				275DBC942B1EEECC00284D27 /* Day89 */,
+				27BE3D962B24C83C0059EB2B /* Day90 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1263,6 +1268,17 @@
 				27ECCCE72B13B840001AB8FD /* Assets.xcassets */,
 			);
 			path = Day80;
+			sourceTree = "<group>";
+		};
+		27BE3D962B24C83C0059EB2B /* Day90 */ = {
+			isa = PBXGroup;
+			children = (
+				27BE3D992B24C8E70059EB2B /* ContentView.swift */,
+				27BE3D982B24C8E70059EB2B /* CardView.swift */,
+				27BE3D972B24C8E70059EB2B /* EditCards.swift */,
+				27BE3D9A2B24C9040059EB2B /* Card.swift */,
+			);
+			path = Day90;
 			sourceTree = "<group>";
 		};
 		27C1DC0D2AEFA9D200E25528 /* Day62 */ = {
