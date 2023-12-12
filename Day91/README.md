@@ -94,6 +94,7 @@ Challenge Day
 - 創建以下檔案：
   - [FileManager-DocumentsDirectory.swift][9]
   - [CardManager.swift][10]
+    
     藉由CardManager來管理卡片的存取、重置。
  
 - ContentView.swift  
@@ -101,6 +102,17 @@ Challenge Day
   - [方法resetCards][12]
   
     loadData()的方式改為cards = CardManager.load()
+
+## 📸 Screenshots
+
+- 編輯卡片與答題過程
+  
+<img width="600" height="300" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-12-12%20at%2014.44.26.gif"/>
+
+- 無障礙模式
+
+  <img width="600" height="300" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-12-12%20at%2014.56.21.gif"/>
+  
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/91
