@@ -216,6 +216,13 @@
 		278102452AE43080000302F7 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		278102482AE43080000302F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		278102492AE43080000302F7 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		278501942B282BC8000FDDE9 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		278501952B282BC8000FDDE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		278501962B282BC8000FDDE9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		278501972B282BC8000FDDE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		278501992B282BC8000FDDE9 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		2785019A2B282BC8000FDDE9 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		2785019B2B282BC8000FDDE9 /* FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaApp.swift; sourceTree = "<group>"; };
 		27860C902AEA6C6200B0E72E /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		27860C912AEA6C6300B0E72E /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
 		27860C922AEA6C6300B0E72E /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -651,6 +658,7 @@
 				276DFA642B1DDADE0035274B /* Day88 */,
 				275DBC942B1EEECC00284D27 /* Day89 */,
 				27BE3D962B24C83C0059EB2B /* Day90 */,
+				278501932B282B6A000FDDE9 /* Day91 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1066,6 +1074,44 @@
 				278102402AE43080000302F7 /* DetailView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		278501932B282B6A000FDDE9 /* Day91 */ = {
+			isa = PBXGroup;
+			children = (
+				2785019B2B282BC8000FDDE9 /* FlashzillaApp.swift */,
+				2785019D2B282C11000FDDE9 /* Model */,
+				2785019C2B282BEE000FDDE9 /* View */,
+				278501982B282BC8000FDDE9 /* FileManager */,
+			);
+			path = Day91;
+			sourceTree = "<group>";
+		};
+		278501982B282BC8000FDDE9 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				278501992B282BC8000FDDE9 /* CardManager.swift */,
+				2785019A2B282BC8000FDDE9 /* FileManager-DocumentsDirectory.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		2785019C2B282BEE000FDDE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				278501972B282BC8000FDDE9 /* ContentView.swift */,
+				278501952B282BC8000FDDE9 /* CardView.swift */,
+				278501942B282BC8000FDDE9 /* EditCards.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2785019D2B282C11000FDDE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				278501962B282BC8000FDDE9 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		27860C8F2AEA6BCE00B0E72E /* One-to-manyRelationshipsWithCoreData,SwiftUI,And@FetchRequest */ = {
