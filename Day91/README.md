@@ -111,7 +111,7 @@ Challenge Day
 
 - 無障礙模式
 
-  <img width="600" height="300" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-12-12%20at%2014.56.21.gif"/>
+<img width="600" height="300" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-12-12%20at%2014.56.21.gif"/>
   
 
 
