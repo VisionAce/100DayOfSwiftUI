@@ -35,6 +35,9 @@ Behind the scenes, SwiftUI performs a fourth step: although it stores positions 
 
 
 
+<img width="300" height="600" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-12-13%20at%2016.21.54.png"/>
+
+
 
 ## How to create a custom alignment guide
 
@@ -42,10 +45,10 @@ Behind the scenes, SwiftUI performs a fourth step: although it stores positions 
 - **VerticalAlignment** or **HorizontalAlignment**
   - conforms to the **AlignmentID** protocol
     
-   
-  
+
+<img width="300" height="600" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-12-13%20at%2016.12.33.png"/>
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/92
-[2]: 
-[3]: 
+[2]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/b1ee43c28def45cc3c7ae24ad8bd06ae0a330931/Day92/AlignmentAndAlignmentGuides.swift#L55C8-L62C10
+[3]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/b1ee43c28def45cc3c7ae24ad8bd06ae0a330931/Day92/HowToCreateACustomAlignmentGuide.swift#L10C1-L20C2
