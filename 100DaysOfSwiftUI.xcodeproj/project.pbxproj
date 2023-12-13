@@ -223,6 +223,8 @@
 		278501992B282BC8000FDDE9 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
 		2785019A2B282BC8000FDDE9 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		2785019B2B282BC8000FDDE9 /* FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaApp.swift; sourceTree = "<group>"; };
+		278501D92B29998D000FDDE9 /* AlignmentAndAlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAndAlignmentGuides.swift; sourceTree = "<group>"; };
+		278501DA2B299F27000FDDE9 /* HowToCreateACustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateACustomAlignmentGuide.swift; sourceTree = "<group>"; };
 		27860C902AEA6C6200B0E72E /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		27860C912AEA6C6300B0E72E /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
 		27860C922AEA6C6300B0E72E /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -659,6 +661,7 @@
 				275DBC942B1EEECC00284D27 /* Day89 */,
 				27BE3D962B24C83C0059EB2B /* Day90 */,
 				278501932B282B6A000FDDE9 /* Day91 */,
+				278501D82B2978E2000FDDE9 /* Day92 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1112,6 +1115,15 @@
 				278501962B282BC8000FDDE9 /* Card.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		278501D82B2978E2000FDDE9 /* Day92 */ = {
+			isa = PBXGroup;
+			children = (
+				278501D92B29998D000FDDE9 /* AlignmentAndAlignmentGuides.swift */,
+				278501DA2B299F27000FDDE9 /* HowToCreateACustomAlignmentGuide.swift */,
+			);
+			path = Day92;
 			sourceTree = "<group>";
 		};
 		27860C8F2AEA6BCE00B0E72E /* One-to-manyRelationshipsWithCoreData,SwiftUI,And@FetchRequest */ = {
