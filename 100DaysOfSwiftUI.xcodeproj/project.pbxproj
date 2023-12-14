@@ -50,6 +50,9 @@
 		272DBF792B187B7F006B9D2D /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		272DBF7A2B187B8F006B9D2D /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		272DBF7B2B187BAF006B9D2D /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		2730F7002B2ADDC100698F0E /* AbsolutePositioningForSwiftUIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningForSwiftUIViews.swift; sourceTree = "<group>"; };
+		2730F7012B2AE91400698F0E /* UnderstandingFramesAndCoordinatesInsideGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingFramesAndCoordinatesInsideGeometryReader.swift; sourceTree = "<group>"; };
+		2730F7022B2AF2E200698F0E /* ScrollViewEffectsUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEffectsUsingGeometryReader.swift; sourceTree = "<group>"; };
 		2733F35C2AA1B7AF0068A21C /* Day22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22.swift; sourceTree = "<group>"; };
 		273406452AB599B4008F516F /* SharingSwiftUIStateWith@StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharingSwiftUIStateWith@StateObject.swift"; sourceTree = "<group>"; };
 		273406462AB59EF1008F516F /* ShowingAndHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViews.swift; sourceTree = "<group>"; };
@@ -443,6 +446,16 @@
 			path = Day84;
 			sourceTree = "<group>";
 		};
+		2730F6FF2B2ADD7100698F0E /* Day93 */ = {
+			isa = PBXGroup;
+			children = (
+				2730F7002B2ADDC100698F0E /* AbsolutePositioningForSwiftUIViews.swift */,
+				2730F7012B2AE91400698F0E /* UnderstandingFramesAndCoordinatesInsideGeometryReader.swift */,
+				2730F7022B2AF2E200698F0E /* ScrollViewEffectsUsingGeometryReader.swift */,
+			);
+			path = Day93;
+			sourceTree = "<group>";
+		};
 		273406292AB58F9A008F516F /* Day35 */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +675,7 @@
 				27BE3D962B24C83C0059EB2B /* Day90 */,
 				278501932B282B6A000FDDE9 /* Day91 */,
 				278501D82B2978E2000FDDE9 /* Day92 */,
+				2730F6FF2B2ADD7100698F0E /* Day93 */,
 			);
 			sourceTree = "<group>";
 		};
