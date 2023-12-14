@@ -31,6 +31,7 @@ Which coordinate space you want to use depends on what question you want to answ
  - What to know where this view is relative to some other view? Use a custom space.
 
  global space上比下高，右比左寬
+ 
 <img width="300" height="600" src="https://github.com/VisionAce/Screenshoots/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-12-14%20at%2015.36.27.png"/>
 
 
