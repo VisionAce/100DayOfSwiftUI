@@ -61,6 +61,7 @@
 		273406492AB60652008F516F /* ArchivingSwiftObjectsWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingSwiftObjectsWithCodable.swift; sourceTree = "<group>"; };
 		2734064A2AB606E9008F516F /* MultiplictionTablesGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplictionTablesGame.swift; sourceTree = "<group>"; };
 		2734AD692A913485005954D8 /* Day14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14.swift; sourceTree = "<group>"; };
+		2735A5292B2C7EB700861057 /* LayoutAndGeometryChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAndGeometryChallenge.swift; sourceTree = "<group>"; };
 		2737BD4A2AAE242900FD5A4F /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		2737BD4B2AAE246600FD5A4F /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		2737BD4E2AAF68C600FD5A4F /* WordScrambleChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleChallenge.swift; sourceTree = "<group>"; };
@@ -456,6 +457,14 @@
 			path = Day93;
 			sourceTree = "<group>";
 		};
+		2730F7032B2C3CF200698F0E /* Day94 */ = {
+			isa = PBXGroup;
+			children = (
+				2735A5292B2C7EB700861057 /* LayoutAndGeometryChallenge.swift */,
+			);
+			path = Day94;
+			sourceTree = "<group>";
+		};
 		273406292AB58F9A008F516F /* Day35 */ = {
 			isa = PBXGroup;
 			children = (
@@ -676,6 +685,7 @@
 				278501932B282B6A000FDDE9 /* Day91 */,
 				278501D82B2978E2000FDDE9 /* Day92 */,
 				2730F6FF2B2ADD7100698F0E /* Day93 */,
+				2730F7032B2C3CF200698F0E /* Day94 */,
 			);
 			sourceTree = "<group>";
 		};
