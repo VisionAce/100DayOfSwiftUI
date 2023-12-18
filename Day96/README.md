@@ -33,7 +33,7 @@ NavigationView iOS 13.0–17.0 Deprecated，取而代之的是用：
   - it acts as a transparent layout container
 
 - @Environment(\.horizontalSizeClass) var sizeClass
-(two size classes horizontally and vertically)
+_two size classes horizontally and vertically_
   - compact
   - regular
 
