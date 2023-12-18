@@ -32,8 +32,8 @@ NavigationView iOS 13.0–17.0 Deprecated，取而代之的是用：
   - used to work around the 10-child view limit
   - it acts as a transparent layout container
 
-- @Environment(\.horizontalSizeClass) var sizeClass\n 
-two size classes horizontally and vertically
+- @Environment(\.horizontalSizeClass) var sizeClass
+(two size classes horizontally and vertically)
   - compact
   - regular
 
