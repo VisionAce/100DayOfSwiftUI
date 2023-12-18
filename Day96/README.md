@@ -33,9 +33,10 @@ NavigationView iOS 13.0–17.0 Deprecated，取而代之的是用：
   - it acts as a transparent layout container
 
 - @Environment(\.horizontalSizeClass) var sizeClass
-_two size classes horizontally and vertically_
-  - compact
-  - regular
+
+  **_two size classes horizontally and vertically_**
+    - compact
+    - regular
 
 
 ## Making a SwiftUI view searchable
