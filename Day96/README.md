@@ -22,7 +22,7 @@ NavigationView iOS 13.0–17.0 Deprecated，取而代之的是用：
 
 ## Using alert() and sheet() with optionals
 
-- [.sheet(item: ) { }] [2]
+- [.sheet(item: ) { }][2]
 - [.alert("", isPresented: , presenting: ) { }][3]
 
 
@@ -46,5 +46,5 @@ two size classes horizontally and vertically
 
 
 [1]: https://www.hackingwithswift.com/100/swiftui/96
-[2]: 
-[3]:
+[2]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/02aaad8a85a2e2e60f72af56517be3c5e6d75b76/Day96/UsingAlert()AndSheet()WithOptionals.swift#L24C1-L26C14
+[3]: https://github.com/VisionAce/100DaysOfSwiftUI/blob/02aaad8a85a2e2e60f72af56517be3c5e6d75b76/Day96/UsingAlert()AndSheet()WithOptionals.swift#L42
