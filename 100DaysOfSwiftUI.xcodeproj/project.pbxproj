@@ -80,6 +80,9 @@
 		27438A362B30146500FF7DAC /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		27438A372B30146500FF7DAC /* RollDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceApp.swift; sourceTree = "<group>"; };
 		27438A382B30146500FF7DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27438A552B302C0F00FF7DAC /* UsingAlert()AndSheet()WithOptionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsingAlert()AndSheet()WithOptionals.swift"; sourceTree = "<group>"; };
+		27438A562B302FCB00FF7DAC /* UsingGroupsAsTransparentLayoutContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingGroupsAsTransparentLayoutContainers.swift; sourceTree = "<group>"; };
+		27438A572B3032E200FF7DAC /* MakingASwiftUIViewSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingASwiftUIViewSearchable.swift; sourceTree = "<group>"; };
 		2744F6B02AD12D8B00D81353 /* TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift"; sourceTree = "<group>"; };
 		2744F6B12AD14CFE00D81353 /* CreativeBordersAndFillsUsingImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFillsUsingImagePaint.swift; sourceTree = "<group>"; };
 		2744F6B22AD173E600D81353 /* EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift"; sourceTree = "<group>"; };
@@ -548,6 +551,16 @@
 			path = Challenge;
 			sourceTree = "<group>";
 		};
+		27438A542B302BD300FF7DAC /* Day96 */ = {
+			isa = PBXGroup;
+			children = (
+				27438A552B302C0F00FF7DAC /* UsingAlert()AndSheet()WithOptionals.swift */,
+				27438A562B302FCB00FF7DAC /* UsingGroupsAsTransparentLayoutContainers.swift */,
+				27438A572B3032E200FF7DAC /* MakingASwiftUIViewSearchable.swift */,
+			);
+			path = Day96;
+			sourceTree = "<group>";
+		};
 		2744F6AF2AD12D3900D81353 /* Day44 */ = {
 			isa = PBXGroup;
 			children = (
@@ -700,6 +713,7 @@
 				2730F6FF2B2ADD7100698F0E /* Day93 */,
 				2730F7032B2C3CF200698F0E /* Day94 */,
 				279A0DF22B2D576300FFE90B /* Day95 */,
+				27438A542B302BD300FF7DAC /* Day96 */,
 			);
 			sourceTree = "<group>";
 		};
