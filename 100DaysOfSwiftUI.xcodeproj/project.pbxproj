@@ -77,6 +77,9 @@
 		273E50BE2AA5B51A00A038E8 /* WorkingWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithForEach.swift; sourceTree = "<group>"; };
 		273E50BF2AA5BBD500A038E8 /* WorkingWithBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithBindings.swift; sourceTree = "<group>"; };
 		273E50C02AA6222900A038E8 /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		27438A362B30146500FF7DAC /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		27438A372B30146500FF7DAC /* RollDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceApp.swift; sourceTree = "<group>"; };
+		27438A382B30146500FF7DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2744F6B02AD12D8B00D81353 /* TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift"; sourceTree = "<group>"; };
 		2744F6B12AD14CFE00D81353 /* CreativeBordersAndFillsUsingImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFillsUsingImagePaint.swift; sourceTree = "<group>"; };
 		2744F6B22AD173E600D81353 /* EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift"; sourceTree = "<group>"; };
@@ -535,6 +538,16 @@
 			path = Day25;
 			sourceTree = "<group>";
 		};
+		27438A392B30147700FF7DAC /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				27438A372B30146500FF7DAC /* RollDiceApp.swift */,
+				27438A382B30146500FF7DAC /* ContentView.swift */,
+				27438A362B30146500FF7DAC /* Dice.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
 		2744F6AF2AD12D3900D81353 /* Day44 */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,6 +699,7 @@
 				278501D82B2978E2000FDDE9 /* Day92 */,
 				2730F6FF2B2ADD7100698F0E /* Day93 */,
 				2730F7032B2C3CF200698F0E /* Day94 */,
+				279A0DF22B2D576300FFE90B /* Day95 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1286,6 +1300,14 @@
 				2795CDD12B0F97A200E5935A /* CustomPropertyWrappers.swift */,
 			);
 			path = KeyPoints;
+			sourceTree = "<group>";
+		};
+		279A0DF22B2D576300FFE90B /* Day95 */ = {
+			isa = PBXGroup;
+			children = (
+				27438A392B30147700FF7DAC /* Challenge */,
+			);
+			path = Day95;
 			sourceTree = "<group>";
 		};
 		279C6E922B054AD700887B7E /* Day72 */ = {

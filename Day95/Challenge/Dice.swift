@@ -26,6 +26,7 @@ struct TetrahedronView: UIViewRepresentable {
         sceneView.scene = scene
         sceneView.backgroundColor = .clear
         sceneView.autoenablesDefaultLighting = true
+        sceneView.allowsCameraControl = true
 
         return sceneView
     }
@@ -86,7 +87,7 @@ struct ContentView2: View {
     var body: some View {
         VStack {
 
-            NumberedCubeView()
+            TetrahedronView()
                     .frame(width: 500, height: 500)
                     .padding(100)
                     
