@@ -83,6 +83,16 @@
 		27438A552B302C0F00FF7DAC /* UsingAlert()AndSheet()WithOptionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsingAlert()AndSheet()WithOptionals.swift"; sourceTree = "<group>"; };
 		27438A562B302FCB00FF7DAC /* UsingGroupsAsTransparentLayoutContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingGroupsAsTransparentLayoutContainers.swift; sourceTree = "<group>"; };
 		27438A572B3032E200FF7DAC /* MakingASwiftUIViewSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingASwiftUIViewSearchable.swift; sourceTree = "<group>"; };
+		27438A6B2B318C4B00FF7DAC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		27438A6C2B318C4B00FF7DAC /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		27438A6D2B318C4B00FF7DAC /* SkiDetialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetialView.swift; sourceTree = "<group>"; };
+		27438A6E2B318C4B00FF7DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27438A6F2B318C4B00FF7DAC /* resorts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		27438A702B318C4B00FF7DAC /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		27438A712B318C4B00FF7DAC /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+		27438A722B318C4B00FF7DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27438A732B318C4B00FF7DAC /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		27438A742B318C4C00FF7DAC /* SnowSeekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerApp.swift; sourceTree = "<group>"; };
 		2744F6B02AD12D8B00D81353 /* TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransformingShapesUsingCGAffineTransformAndEven-oddFills.swift"; sourceTree = "<group>"; };
 		2744F6B12AD14CFE00D81353 /* CreativeBordersAndFillsUsingImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFillsUsingImagePaint.swift; sourceTree = "<group>"; };
 		2744F6B22AD173E600D81353 /* EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnablingHigh-performanceMetalRenderingWithDrawingGroup().swift"; sourceTree = "<group>"; };
@@ -561,6 +571,23 @@
 			path = Day96;
 			sourceTree = "<group>";
 		};
+		27438A6A2B31881500FF7DAC /* Day97 */ = {
+			isa = PBXGroup;
+			children = (
+				27438A742B318C4C00FF7DAC /* SnowSeekerApp.swift */,
+				27438A722B318C4B00FF7DAC /* ContentView.swift */,
+				27438A732B318C4B00FF7DAC /* Resort.swift */,
+				27438A712B318C4B00FF7DAC /* ResortDetailsView.swift */,
+				27438A702B318C4B00FF7DAC /* ResortView.swift */,
+				27438A6D2B318C4B00FF7DAC /* SkiDetialView.swift */,
+				27438A6C2B318C4B00FF7DAC /* Bundle-Decodable.swift */,
+				27438A6B2B318C4B00FF7DAC /* WelcomeView.swift */,
+				27438A6F2B318C4B00FF7DAC /* resorts.json */,
+				27438A6E2B318C4B00FF7DAC /* Assets.xcassets */,
+			);
+			path = Day97;
+			sourceTree = "<group>";
+		};
 		2744F6AF2AD12D3900D81353 /* Day44 */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,6 +741,7 @@
 				2730F7032B2C3CF200698F0E /* Day94 */,
 				279A0DF22B2D576300FFE90B /* Day95 */,
 				27438A542B302BD300FF7DAC /* Day96 */,
+				27438A6A2B31881500FF7DAC /* Day97 */,
 			);
 			sourceTree = "<group>";
 		};
