@@ -1,7 +1,7 @@
 # Day 97: Project 19: SnowSeeker
 
 Follow along at 
-- [Day 96 – Project 19, part one][1]
+- [Day 97 – Project 19, part two][1]
 
 # 📒 Field Notes
 
